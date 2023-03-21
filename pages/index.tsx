@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import Navbar from "@/components/common/navbar";
 import Footer from "@/components/common/Footer";
+import jasonimg from "@/public/assets/img/me.jpg"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -43,7 +44,9 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className={styles.hero_image}></div>
+          <div className={styles.hero_image}>
+            <Image className={styles.img} src={jasonimg} alt={"Jason Zubiate"}/>
+          </div>
         </div>
       </main>
     </>
