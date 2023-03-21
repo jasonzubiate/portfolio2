@@ -1,0 +1,8 @@
+.footer {
+  display: flex;
+}
+.footer > .label {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+}
