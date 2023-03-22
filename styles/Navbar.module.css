@@ -13,7 +13,7 @@
   display: flex;
   gap: 4rem;
 }
-.navlink {
+.navlink, .navlink:visited {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 1.5rem;
