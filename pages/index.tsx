@@ -37,7 +37,7 @@ export default function Home({ work }: WorkProps) {
 				<div className={styles.hero}>
 					<div className={styles.hero_content}>
 						<h1 className={styles.h1}>Jason Zubiate</h1>
-						<h2 className={styles.h2}>
+						<h2 className={styles.catchline}>
 							0 to 1 designer - of software, interfaces, and experiences
 						</h2>
 						<div className={styles.statuses}>
@@ -67,12 +67,12 @@ export default function Home({ work }: WorkProps) {
 							className={styles.img}
 							src={jasonimg}
 							alt={"Jason Zubiate"}
+              quality={100}
 						/>
 					</div>
 				</div>
 				<div className={styles.work}>
-					<h2>My Work</h2>
-					<div className={styles.divider}></div>
+					<h2 className={styles.h2}>My Work</h2>
 					<div className={styles.projects}>
 						{work.map((project: any) => {
 							return (
