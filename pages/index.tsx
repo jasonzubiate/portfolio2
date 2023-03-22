@@ -74,14 +74,15 @@ export default function Home({ work }: WorkProps) {
 					<h2>My Work</h2>
 					<div className={styles.divider}></div>
 					<div className={styles.projects}>
-            {work.map((project:any) => {
-              return ( 
-                <ProjectCard
-                  project={project}
-                />
-              )
-            })}
-          </div>
+						{work.map((project: any) => {
+							return (
+								<div>
+									<hr className={styles.hr} />
+									<ProjectCard project={project} />
+								</div>
+							);
+						})}
+					</div>
 				</div>
 			</main>
 		</>
