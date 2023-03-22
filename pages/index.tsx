@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
-import ProjectCard from "@/components/common/projectcard";
+import ProjectCard from "@/components/common/ProjectCard";
 import jasonimg from "@/public/assets/img/me.jpg";
 import fsPromises from "fs/promises";
 import path from "path";
