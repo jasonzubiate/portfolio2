@@ -10,11 +10,11 @@ export default function Footer() {
       <div className={styles.label}>
         <label className={styles.label_title}>Connect</label>
         <label className={styles.label_content}>
-          <a href="https://www.linkedin.com/in/jasonzubiate/">Linkedin</a>
+          <a className={styles.link} href="https://www.linkedin.com/in/jasonzubiate/">Linkedin</a>
           <span> / </span>
-          <a href="https://www.instagram.com/jason.zubiate/">Instagram</a>
+          <a className={styles.link} href="https://www.instagram.com/jason.zubiate/">Instagram</a>
           <span> / </span>
-          <a href="https://github.com/jasonzubiate?tab=repositories">Github</a>
+          <a className={styles.link} href="https://github.com/jasonzubiate?tab=repositories">Github</a>
         </label>
       </div>
       <div className={styles.label}>

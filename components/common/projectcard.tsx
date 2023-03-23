@@ -29,7 +29,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
           ))}
         </div>
         <p className={styles.description}>{project.description}</p>
-        <Link className={styles.button} href={`/${project.name}`}>
+        <Link className={styles.button} href={`/${project.url}`}>
           Visit Project{" "}
           <span>
             <Image

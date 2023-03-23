@@ -13,12 +13,10 @@
   display: flex;
   gap: 4rem;
 }
-.navlink, .navlink:visited {
+.logo, .logo:visited {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 1.5rem;
   font-weight: 600;
-}
-.navlink:visited {
   color: inherit;
 }
