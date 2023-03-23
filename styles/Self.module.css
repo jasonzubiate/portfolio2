@@ -33,14 +33,14 @@
   line-height: 160%;
 }
 .bio_image {
-  width: 45%;
+  width: 35%;
   position: relative;
   display: flex;
   justify-content: center;
 }
 .uci_img {
   max-width: 100%;
-  width: 40%;
+  width: 50%;
   height: auto;
   position: absolute;
 }
