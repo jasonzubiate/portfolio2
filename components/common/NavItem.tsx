@@ -4,17 +4,15 @@ import styles from "@/styles/Navlink.module.css";
 interface NavItemProps {
   to: string;
   label: string;
-  currentPage: string;
-  onClick: (page: string) => void;
+  current: boolean;
+  onClick: () => void;
 }
 
-export default function NavItem({ to, label, currentPage, onClick }: NavItemProps) {
-	const isActive = currentPage === label.toLowerCase();
-
+export default function NavItem({ to, label, current, onClick }: NavItemProps) {
 	return (
 		<div className={styles.navitem}>
-			{isActive && <span className={styles.dot}></span>}
-			<Link className={styles.navlink} href={to}>
+			{current && <span className={styles.dot}></span>}
+			<Link className={styles.navlink} href={to} onClick={onClick}>
 				{label}
 			</Link>
 		</div>

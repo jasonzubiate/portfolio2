@@ -22,25 +22,25 @@ export default function Navbar() {
 				<NavItem
 					to={"/"}
 					label={"Work"}
-					currentPage={currentPage}
+					current={currentPage === 'work'}
 					onClick={() => handleNavClick("work")}
 				/>
 				<NavItem
 					to={"/self"}
 					label={"Self"}
-					currentPage={currentPage}
+					current={currentPage === 'self'}
 					onClick={() => handleNavClick("self")}
 				/>
 				<NavItem
 					to={"/music"}
 					label={"Music"}
-					currentPage={currentPage}
+					current={currentPage === 'music'}
 					onClick={() => handleNavClick("music")}
 				/>
 				<NavItem
 					to={"/resume"}
 					label={"Resume"}
-					currentPage={currentPage}
+					current={currentPage === 'resume'}
 					onClick={() => handleNavClick("resume")}
 				/>
 			</div>

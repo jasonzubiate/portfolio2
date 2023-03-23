@@ -3,6 +3,7 @@
   flex-direction: row;
   align-items: center;
   gap: .5rem;
+  transition: transform 500ms cubic-bezier(0.13, 0.53, 0.38, 0.97);
 }
 .dot {
   width: 18px;
