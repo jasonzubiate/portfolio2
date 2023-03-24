@@ -1,3 +1,21 @@
 .header {
-  
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 76px 328px;
+  background-color: var(--LIGHTGREY);
+}
+.h1 {
+  font-family: var(--SECONDARYFONT);
+  font-size: 3rem;
+  font-weight: 700;
+}
+.project_description {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.lable {
+  font-size: 24px;
+  font-weight: 600;
 }
