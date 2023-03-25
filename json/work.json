@@ -5,24 +5,30 @@
 			"roles": ["UX Lead", "Frontend Developer"],
 			"dates": ["January 2023 - Currently", "June 2022 - December 2022"],
 			"description": "Managed a team of designers during a comprehensive user testing session for a mobile application focused on nutritional health management, invoving a sizeable cohort of 100 particpants.",
+			"tools": ["Figma", "Miro", "React", "Next.js", "Smartlook"],
       "img": "nutripair.png",
-			"url": "nutripair"
+			"url": "nutripair",
+			"NDA": true
 		},
 		{
 			"name": "ObvioHealth & Hyfe AI",
 			"roles": ["Machine Learning Engineer"],
 			"dates": ["October 2022 - March 2023"],
 			"description": "Advanced the field of cough analysis through the development of a robust diarization model utilizing cutting-edge machine learning methodologies.",
+			"tools": ["Pytorch", "Lightning", "Hydra", "Speechbrain"],
       "img": "coughdiarization.png",
-			"url": "coughdiarization"
+			"url": "coughdiarization",
+			"NDA": true
 		},
 		{
 			"name": "Anteater Wellness App",
 			"roles": ["Software Designer", "Design Researcher"],
 			"dates": ["April 2022 - June 2022"],
 			"description": "Advanced the field of cough analysis through the development of a robust diarization model utilizing cutting-edge machine learning methodologies.",
+			"tools": ["Figma", "Miro"],
       "img":"anteaterwellness.png",
-			"url": "anteaterwellness"
+			"url": "anteaterwellness",
+			"NDA": false
 		}
 	]
 }

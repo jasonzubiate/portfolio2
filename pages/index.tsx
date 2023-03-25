@@ -47,6 +47,7 @@ export default function Home({ work }: WorkProps) {
 									UX Lead @ <span className={styles.bold}>Nutripair</span>
 								</label>
 							</div>
+							<div className={styles.vl}></div>
 							<div className={styles.status}>
 								<label className={styles.status_title}>Thinking About</label>
 								<label className={styles.status_body}>
@@ -54,6 +55,7 @@ export default function Home({ work }: WorkProps) {
 									music production
 								</label>
 							</div>
+							<div className={styles.vl}></div>
 							<div className={styles.status}>
 								<label className={styles.status_title}>Previously</label>
 								<label className={styles.status_body}>
