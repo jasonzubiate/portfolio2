@@ -6,7 +6,7 @@
   color: var(--OFFWHITE);
   padding: 4rem;
 }
-.footer > .label {
+.label {
   display: flex;
   gap: 1rem;
   flex-direction: column;
@@ -17,4 +17,15 @@
 }
 .link, .link:visited {
   color: inherit;
+}
+@media screen and (min-width: 390px){
+  .footer {
+    flex-direction: column;
+    padding: 1.25rem;
+    gap: 1.5rem;
+  }
+  .label {
+    font-size: 12px;
+    gap: .25rem;
+  }
 }
