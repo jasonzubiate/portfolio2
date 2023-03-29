@@ -31,12 +31,12 @@ export default function Navbar() {
 					current={currentPage === 'self'}
 					onClick={() => handleNavClick("self")}
 				/>
-				<NavItem
+				{/* <NavItem
 					to={"/music"}
 					label={"Music"}
 					current={currentPage === 'music'}
 					onClick={() => handleNavClick("music")}
-				/>
+				/> */}
 				<NavItem
 					to={"/resume"}
 					label={"Resume"}

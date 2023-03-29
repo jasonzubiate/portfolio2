@@ -22,9 +22,9 @@
 		},
 		{
 			"name": "Anteater Wellness App",
-			"roles": ["Software Designer", "Design Researcher"],
-			"dates": ["April 2022 - June 2022"],
-			"description": "Advanced the field of cough analysis through the development of a robust diarization model utilizing cutting-edge machine learning methodologies.",
+			"roles": ["UX Designer", "Design Researcher"],
+			"dates": ["April 2022 - June 2022 (10 Weeks)"],
+			"description": "Refining the approach to promoting health and wellness awareness to better address the toll on students and demand on student health centers.",
 			"tools": ["Figma", "Miro"],
       "img":"anteaterwellness.png",
 			"url": "anteaterwellness",
