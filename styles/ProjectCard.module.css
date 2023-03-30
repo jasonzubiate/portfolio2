@@ -57,3 +57,33 @@
   transform: translateY(10%);
 }
 
+@media screen and (min-width: 390px) {
+  .card {
+    flex-direction: column-reverse;
+  }
+  .card_info, .card_img {
+    width: 100%;
+  }
+  .name {
+    font-size: 16px;
+  }
+  .roles {
+    margin-top: .5rem;
+    gap: .5rem;
+  }
+  .role_title, .role_date, .description, .button {
+    font-size: 14px;
+  }
+  .description {
+    margin-top: 1rem;
+  }
+  .button {
+    margin-top: 1rem;
+    width: 160px;
+    padding: 12px 0px;
+  }
+  .arrow {
+    width: 18px;
+    height: 20px
+  }
+}

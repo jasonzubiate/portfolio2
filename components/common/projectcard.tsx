@@ -35,7 +35,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
             <Image
               className={styles.arrow}
               src={rightArrow}
-              width={24}
+              width={20}
               height={24}
               alt={`Visit ${project.name}`}
             />
