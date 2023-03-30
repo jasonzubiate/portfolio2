@@ -41,7 +41,8 @@
 	font-family: var(--PRIMARYFONT);
 	padding: 0 8rem;
 	border: 0px 5px solid var(--BLACK);
-}
+	overflow-x: hidden;
+ }
 .project-hero-img {
 	width: 100%;
 	height: 490px;
@@ -143,5 +144,17 @@
 @media screen and (max-width: 390px) {
 	.main {
 		padding: 0;
+	}
+	.project-container {
+		padding: 0;
+		border: 0;
+	}
+	.project-section {
+		margin-bottom: 2rem;
+	}
+	.project-h2 {
+		font-size: 1rem;
+		text-transform: uppercase;
+		margin-bottom: 0.5rem;
 	}
 }

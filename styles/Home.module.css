@@ -33,16 +33,13 @@
   display: flex;
   flex-direction: column;
   width: 30%;
+  font-size: 18px;
 }
 .status_title {
   font-family: var(--SECONDARYFONT);
-  font-size: 18px;
   margin-bottom: .5rem;
   font-style: italic;
   font-weight: 700;
-}
-.status_body {
-  font-size: 18px;
 }
 .bold {
   font-weight: 600;
@@ -84,5 +81,31 @@
 @media screen and (max-width: 390px) {
   .hero {
     flex-direction: column;
+  }
+  .hero_content, .hero_image {
+    width: 100%;
+    border: 0;
+  }
+  .hero_content {
+    padding: 2rem 1rem;
+  }
+  .h1 {
+    font-size: 3.5rem;
+    letter-spacing: -.2rem;
+  }
+  .catchline {
+    font-size: 18px;
+  }
+  .statuses {
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+  .status {
+    width: 100%;
+    font-size: 16px;
+  }
+  .vl {
+    height: 1px;
+    margin: 1rem 0;
   }
 }
