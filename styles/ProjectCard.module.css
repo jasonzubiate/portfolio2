@@ -57,7 +57,7 @@
   transform: translateY(10%);
 }
 
-@media screen and (min-width: 390px) {
+@media screen and (max-width: 390px) {
   .card {
     flex-direction: column-reverse;
   }
