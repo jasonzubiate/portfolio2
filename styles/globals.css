@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,600;1,400;1,600;1,700&display=swap");
 
 :root {
@@ -69,6 +69,7 @@
 	font-size: 1rem;
 	text-transform: uppercase;
 	margin-bottom: 0.5rem;
+	color: #5a5a5a	
 }
 .project-label-large {
 	display: block;
@@ -141,20 +142,64 @@
 	line-height: 160%;
 	margin-bottom: 2rem;
 }
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 479px) {
 	.main {
 		padding: 0;
 	}
 	.project-container {
-		padding: 0;
+		padding: 3rem 1rem;
 		border: 0;
 	}
 	.project-section {
-		margin-bottom: 2rem;
+		margin-bottom: 4rem;
 	}
 	.project-h2 {
-		font-size: 1rem;
+		font-size: 12px;
 		text-transform: uppercase;
 		margin-bottom: 0.5rem;
+		font-weight: 600;	
+	}
+	.project-label-large {
+		font-size: 24px;
+		font-weight: 500;
+		margin-bottom: 2rem;
+	}
+	.label-card-large {width: 95%;
+		padding: 1rem;
+	}
+	.label-card-large-label {
+		font-size: 14px;
+	}
+	.label-card-large-p {
+		font-size: 15px;
+		line-height: 160%;
+		font-weight: 300;
+	}
+	.project-h3 {
+		font-size: 17px;
+		font-weight: 500;
+		margin-bottom: .5rem;
+	}
+	.project-p {
+		font-size: 15px;
+		font-weight: 300;
+		margin-bottom: 1rem;
+	}
+	.project-label-18 {
+		font-size: 14px;
+	}
+	.row {
+		flex-direction: column;
+		gap: .5rem;
+	}
+	.display-container {
+		flex-direction: column;
+		gap: 3rem;
+		margin-bottom: 2rem;
+	}
+	.project-img-display {
+		width: 70%;
+		height: auto;
+		margin: auto;
 	}
 }
