@@ -31,6 +31,7 @@
 		padding: 0 1rem;
 		border-left: none;
     border-right: none;
+		border-bottom: 3px solid var(--BLACK);
 	}
 	.logo,
 	.logo:visited {

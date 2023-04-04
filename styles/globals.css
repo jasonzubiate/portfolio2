@@ -146,6 +146,10 @@
 	.main {
 		padding: 0;
 	}
+	.project-hero-img {
+		height: 250px;
+		border: none;
+	}
 	.project-container {
 		padding: 3rem 1rem;
 		border: 0;
