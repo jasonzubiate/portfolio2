@@ -93,10 +93,35 @@
 .experience_item {
   margin-top: 1rem;
 }
+.form > .input {
+	width: 100%;
+	display: block;
+	padding: 1rem 0rem 1.5rem 0rem;
+	margin-bottom: 2rem;
+	border: none;
+	border-top-style: hidden;
+	border-right-style: hidden;
+	border-left-style: hidden;
+	border-bottom: solid 0.2rem var(--BLACK);
+	background-color: transparent;
+}
+.form > .input,
+.input::placeholder {
+	color: var(--BLACK);
+	font-weight: 500;
+	font-size: 24px;
+	font-family: inherit;
+}
+.form > .input:focus,
+.input:valid {
+	outline: none;
+	background-position: 0 0;
+}
 @media screen and (max-width: 479px) {
   .hero {
     border-left: none;
     border-right: none;
+    border-bottom: 3px solid var(--BLACK);
     height: 16rem;
   }
   .h2 {
@@ -116,7 +141,7 @@
   }
   .bio_text,
   .p {
-    font-size: 16px;
+    font-size: 15px;
     width: 100%;
     font-weight: 300;
   }
@@ -128,7 +153,11 @@
     max-height: 3rem;
   }
   .label {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
+  }
+  .experience {
+    flex-direction: column;
+    gap: 1rem;
   }
 }
