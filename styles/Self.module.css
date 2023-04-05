@@ -93,10 +93,13 @@
 .experience_item {
   margin-top: 1rem;
 }
+.form {
+  margin-top: 5rem;
+}
 .form > .input {
 	width: 100%;
 	display: block;
-	padding: 1rem 0rem 1.5rem 0rem;
+	padding: 1rem 0rem;
 	margin-bottom: 2rem;
 	border: none;
 	border-top-style: hidden;
@@ -109,7 +112,7 @@
 .input::placeholder {
 	color: var(--BLACK);
 	font-weight: 500;
-	font-size: 24px;
+	font-size: 1.25rem;
 	font-family: inherit;
 }
 .form > .input:focus,
