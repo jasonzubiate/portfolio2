@@ -1,0 +1,15 @@
+.menu {
+  background-color: var(--BLACK);
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1rem;
+  gap: 1.5rem;
+  transition: transform 400ms cubic-bezier(0.13, 0.53, 0.38, 0.97);
+}
+.link,
+.link:visited {
+  text-transform: uppercase;
+  color: var(--OFFWHITE);
+  text-decoration: none;
+  cursor: pointer;
+}
