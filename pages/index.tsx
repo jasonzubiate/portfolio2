@@ -43,9 +43,7 @@ export default function Home({ work }: WorkProps) {
             <div className={styles.statuses}>
               <div className={styles.status}>
                 <label className={styles.status_title}>Currenly</label>
-                <label className={styles.status_body}>
-                  UX Lead @ <span className={styles.bold}>Nutripair</span>
-                </label>
+                <label className={styles.status_body}>Preparing for gradute school in fall 2023</label>
               </div>
               <div className={styles.vl}></div>
               <div className={styles.status}>
@@ -59,7 +57,12 @@ export default function Home({ work }: WorkProps) {
               <div className={styles.status}>
                 <label className={styles.status_title}>Previously</label>
                 <label className={styles.status_body}>
-                  B.S. Informatics: Human-Computer Interaction
+                  UX Lead @{" "}
+                  <span className={styles.bold}>
+                    <a className="link" href="https://www.nutripair.co/">
+                      Nutripair
+                    </a>
+                  </span>
                 </label>
               </div>
             </div>

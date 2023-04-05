@@ -43,6 +43,13 @@
 	border: 0px 5px solid var(--BLACK);
 	overflow-x: hidden;
  }
+ .link {
+	text-decoration: none;
+	color: inherit;
+ }
+ .link:hover {
+	text-decoration: underline;
+ }
 .project-hero-img {
 	width: 100%;
 	height: 490px;
