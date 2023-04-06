@@ -2,6 +2,7 @@ import fsPromises from "fs/promises";
 import path from "path";
 import Image from "next/image";
 import ProjectHeader from "@/components/ProjectHeader";
+import nhero from "@/public/assets/img/nutripair.png"
 
 export async function getStaticProps() {
 	const filePath = path.join(process.cwd(), "json/work.json");
@@ -22,10 +23,8 @@ export default function nutripair({ project }) {
 			<div className="project-hero-img" style={heroColorStyle}>
 				<Image
 					className="img"
-					src={`/assets/img/${project.img}`}
+					src={nhero}
 					alt={"Nutripair Logo"}
-					width={1020}
-					height={400}
 					quality={100}
 					priority
 				/>

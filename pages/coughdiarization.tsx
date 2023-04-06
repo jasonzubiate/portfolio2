@@ -2,6 +2,7 @@ import fsPromises from "fs/promises";
 import path from "path";
 import Image from "next/image";
 import ProjectHeader from "@/components/ProjectHeader";
+import cdhero from "@/public/assets/img/coughdiarization.png"
 
 export async function getStaticProps() {
 	const filePath = path.join(process.cwd(), "json/work.json");
@@ -18,16 +19,14 @@ export async function getStaticProps() {
 }
 
 export default function coughdiarization({ project }) {
-	const heroColorStyle = { backgroundColor: "#FF4383" };
+	const heroColorStyle = { backgroundColor: "#00000" };
 	return (
 		<div>
 			<div className="project-hero-img" style={heroColorStyle}>
 				<Image
 					className="img"
-					src={`/assets/img/${project.img}`}
-					alt="ObvioHealth Logo"
-					width={749}
-					height={400}
+					src={cdhero}
+					alt={"ObvioHealth Logo"}
 					quality={100}
 					priority
 				/>
