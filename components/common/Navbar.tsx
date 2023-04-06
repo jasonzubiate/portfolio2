@@ -4,6 +4,7 @@ import { useState } from "react";
 import NavItem from "./NavItem";
 import menu from "@/public/assets/icons/menu.png";
 import close from "@/public/assets/icons/close.png";
+// import resume from "/assets/doc/jasonzubiate.pdf";
 import Image from "next/image";
 
 export default function Navbar({ toggle, setToggle }) {
@@ -40,7 +41,7 @@ export default function Navbar({ toggle, setToggle }) {
 					onClick={() => handleNavClick("music")}
 				/> */}
         <NavItem
-          to={"/resume"}
+          to={"/assets/doc/jasonzubiate.pdf"}
           label={"Resume"}
           current={currentPage === "resume"}
           onClick={() => handleNavClick("resume")}

@@ -23,8 +23,8 @@ export default function nutripair({ project }) {
 				<Image
 					className="img"
 					src={`/assets/img/${project.img}`}
-					alt="Nutripair Logo"
-					width={749}
+					alt={"Nutripair Logo"}
+					width={1020}
 					height={400}
 					quality={100}
 					priority
