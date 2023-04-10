@@ -28,7 +28,7 @@ export default function Navbar({ toggle, setToggle }) {
 					onClick={() => handleNavClick("work")}
 				/>
 				<NavItem
-					to={"/self"}
+					to={"/Self"}
 					label={"Self"}
 					current={currentPage === "self"}
 					onClick={() => handleNavClick("self")}
