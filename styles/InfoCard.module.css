@@ -5,7 +5,7 @@
   width: 30%;
   border-radius: 10px;
 }
-@media screen and (max-width:479px) {
+@media screen and (max-width:640px) {
   .card {
     width: 100%;
     font-size: 14px;
