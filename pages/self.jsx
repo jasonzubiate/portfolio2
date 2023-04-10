@@ -12,8 +12,8 @@ import React, { useRef } from "react";
 export default function self() {
 	const [submitted, setSubmitted] = useState(false);
 	const ref = useRef(null);
-	const scrollToRef = () =>ref.current.scrollIntoView({ behavior: 'smooth' });
-	const sendEmail = (e: any) => {
+	const scrollToRef = () => ref.current.scrollIntoView({ behavior: "smooth" });
+	const sendEmail = (e) => {
 		console.log("subbed");
 		e.preventDefault();
 

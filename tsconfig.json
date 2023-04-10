@@ -1,7 +1,11 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -15,9 +19,29 @@
     "jsx": "preserve",
     "incremental": true,
     "paths": {
-      "@/*": ["./*"]
+      "@/*": [
+        "./*"
+      ]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules"]
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "pages/coughdiarization.jsx",
+    "pages/self.jsx",
+    "pages/anteaterwellness.jsx",
+    "pages/index.jsx",
+    "pages/nutripair.jsx",
+    "components/common/Footer.jsx",
+    "components/common/HamburgerMenu.jsx",
+    "components/common/InfoCard.jsx",
+    "components/common/Layout.jsx",
+    "components/common/Navbar.jsx",
+    "components/common/NavItem.jsx",
+    "components/common/ProjectCard.jsx"
+, "components/ProjectHeader.jsx"  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
