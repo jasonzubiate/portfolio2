@@ -40,7 +40,6 @@
 	color: var(--BLACK);
 	font-family: var(--PRIMARYFONT);
 	padding: 0 8rem;
-	border: 0px 5px solid var(--BLACK);
 	overflow-x: hidden;
  }
  .link {
