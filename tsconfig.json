@@ -29,7 +29,7 @@
     "**/*.ts",
     "**/*.tsx",
     "pages/coughdiarization.jsx",
-    "pages/Self.jsx",
+    "pages/self.jsx",
     "pages/anteaterwellness.jsx",
     "pages/index.jsx",
     "pages/nutripair.jsx",

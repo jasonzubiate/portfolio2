@@ -9,7 +9,7 @@ import emailjs from "@emailjs/browser";
 import { useState } from "react";
 import React, { useRef } from "react";
 
-export default function Self() {
+export default function self() {
 	const [submitted, setSubmitted] = useState(false);
 	const ref = useRef(null);
 	const scrollToRef = () => ref.current.scrollIntoView({ behavior: "smooth" });
