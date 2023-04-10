@@ -79,7 +79,7 @@ export default function Home({ work }) {
 					<div className={styles.projects}>
 						{work.map((project) => {
 							return (
-								<div>
+								<div key={project.id}>
 									<hr className={styles.hr} />
 									<ProjectCard project={project} />
 								</div>
