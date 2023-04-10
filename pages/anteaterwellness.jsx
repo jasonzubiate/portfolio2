@@ -80,7 +80,7 @@ export default function anteaterwellness({ project }) {
 						</p>
 						<p className="project-p">
 							During the first stage of our collaboration, we conducted
-							elicitation sessions with the center's staff to gather information
+							elicitation sessions with the center&apos;s staff to gather information
 							on the goals and requirements of the Anteater Wellness
 							Application.
 						</p>
@@ -112,7 +112,7 @@ export default function anteaterwellness({ project }) {
 						<p className="project-p">
 							The primary users of the Anteater Wellness application are UCI
 							students, both graduate and undergraduate, who are currently
-							enrolled at the university. The application's functionality is
+							enrolled at the university. The application&apos;s functionality is
 							designed specifically to improve the health and well-being of
 							these students. It provides a valuable resource for individuals
 							who seek to enhance their physical, emotional, intellectual,
@@ -209,7 +209,7 @@ export default function anteaterwellness({ project }) {
 						<h3 className="project-h3">Personas</h3>
 						<p className="project-p">
 							Based on my surveys and elicitation sessions, I visualized the
-							relationship between students' experiences with health and
+							relationship between students&apos; experiences with health and
 							wellness and the goals of the Wellness Center. To ensure
 							inclusivity for all students, I created a persona for each of the
 							main student types I encounter
@@ -240,7 +240,7 @@ export default function anteaterwellness({ project }) {
 						<p className="project-p">
 							Initially, I conducted market research to identify similar
 							applications and their feature sets. Since this particular
-							application focuses on improving students' mental health through
+							application focuses on improving students&apos; mental health through
 							event scheduling and health tracking, I specifically looked at the
 							main features of mental health, events, and goal tracking apps.
 						</p>
@@ -368,18 +368,18 @@ export default function anteaterwellness({ project }) {
 							colors of blue and yellow. A light shade of blue was chosen as the
 							primary accent color to create a sense of trust and calmness,
 							while a golden yellow was chosen as a secondary accent to add
-							vibrancy and warmth. Blue is easy on the eyes and won't cause any
+							vibrancy and warmth. Blue is easy on the eyes and won&apos;t cause any
 							unnecessary strain, making it an ideal choice for long periods of
 							use. By using blue and yellow as accent colors, the application
 							will feel familiar and welcoming to students who are already
-							familiar with the university's colors.
+							familiar with the university&apos;s colors.
 						</p>
 						<p className="project-p">
 							To complement the color palette, the font Poppins was selected for
 							its modern and clean aesthetic. Poppins is versatile and easy to
 							read on various devices, making it an excellent choice for
-							displaying different types of information. The font's fresh and
-							contemporary feel aligns with the application's overall objective
+							displaying different types of information. The font&apos;s fresh and
+							contemporary feel aligns with the application&apos;s overall objective
 							of promoting health and wellness among college students.
 							Additionally, the use of Poppins creates consistency throughout
 							the application and helps to establish a recognizable visual
@@ -407,7 +407,7 @@ export default function anteaterwellness({ project }) {
 									featured events to their registered events list, and receive
 									updates and notifications regarding those events. The events
 									posted by the Wellness Center are uniquely categorized to
-									align with students' wellness needs and goals, and are
+									align with students&apos; wellness needs and goals, and are
 									designed to help them make progress on their wellness wheel.
 								</p>
 							</div>
@@ -427,7 +427,7 @@ export default function anteaterwellness({ project }) {
 									Each community is associated with a primary wellness category
 									that the Wellness Center promotes by providing additional
 									resources and related events. This helps to further support
-									students' holistic wellness journeys by connecting them with
+									students&apos; holistic wellness journeys by connecting them with
 									like-minded peers and relevant resources.
 								</p>
 							</div>
@@ -447,7 +447,7 @@ export default function anteaterwellness({ project }) {
 									have the flexibility to create their own goals and categorize
 									them based on the various dimensions of their wellness wheel.
 									The Wellness Center provides personalized goal suggestions
-									based on the student's current status in their wellness
+									based on the student&apos;s current status in their wellness
 									journey.
 								</p>
 							</div>

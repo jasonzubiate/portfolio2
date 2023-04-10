@@ -52,7 +52,7 @@ export default function Self() {
 				/>
 			</div>
 			<div className={styles.content}>
-				<h1 className={styles.h2}>I'm Jason, Welcome To My Digital Home</h1>
+				<h1 className={styles.h2}>I&apos;m Jason, Welcome To My Digital Home</h1>
 				<div className={styles.bio}>
 					<div className={styles.bio_text}>
 						<p>
