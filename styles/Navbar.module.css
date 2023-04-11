@@ -26,6 +26,7 @@
   border: none;
   display: none;
 	cursor: pointer;
+	background-color: transparent;
 }
 .menu {
 	transition: transform 400ms cubic-bezier(0.13, 0.53, 0.38, 0.97);
