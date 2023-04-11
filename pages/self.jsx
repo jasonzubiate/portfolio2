@@ -9,11 +9,11 @@ import emailjs from "@emailjs/browser";
 import { useState } from "react";
 import React, { useRef } from "react";
 
-export default function self() {
+export default function Self() {
 	const [submitted, setSubmitted] = useState(false);
 	const ref = useRef(null);
-	const scrollToRef = () =>ref.current.scrollIntoView({ behavior: 'smooth' });
-	const sendEmail = (e: any) => {
+	const scrollToRef = () => ref.current.scrollIntoView({ behavior: "smooth" });
+	const sendEmail = (e) => {
 		console.log("subbed");
 		e.preventDefault();
 
@@ -47,12 +47,11 @@ export default function self() {
 					className={styles.hero_img}
 					src={hero}
 					alt="Jason Zubiate"
-					quality={100}
 					priority
 				/>
 			</div>
 			<div className={styles.content}>
-				<h1 className={styles.h2}>I'm Jason, Welcome To My Digital Home</h1>
+				<h1 className={styles.h2}>I&apos;m Jason, Welcome To My Digital Home</h1>
 				<div className={styles.bio}>
 					<div className={styles.bio_text}>
 						<p>

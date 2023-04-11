@@ -5,7 +5,9 @@ export default function Footer() {
 		<div className={styles.footer}>
 			<div className={styles.label}>
 				<label className={styles.label_title}>Contact</label>
-				<label className={styles.label_content}>jzubiate@uci.edu</label>
+				<a className={styles.label_content} href="mailto:jzubiate@uci.edu">
+					jzubiate@uci.edu
+				</a>
 			</div>
 			<div className={styles.label}>
 				<label className={styles.label_title}>Connect</label>

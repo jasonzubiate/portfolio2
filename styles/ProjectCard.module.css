@@ -72,6 +72,9 @@
 	.card_img {
 		width: 100%;
 	}
+	.card_img {
+		height: 220px;
+	}
 	.name {
 		font-size: 16px;
 	}
@@ -92,6 +95,7 @@
 		margin-top: 1rem;
 		width: 160px;
 		padding: 12px 0px;
+		border: 2px solid var(--BLACK);
 	}
 	.arrow {
 		width: 18px;
