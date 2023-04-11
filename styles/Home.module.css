@@ -89,6 +89,9 @@
     border: none;
     border-bottom: 3px solid var(--BLACK);
   }
+  .hero_image {
+   display: flex;
+  }
   .hero_content {
     padding: 2rem 1rem;
   }
