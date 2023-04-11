@@ -12,6 +12,10 @@
   flex-direction: column;
   text-transform: uppercase;
 }
+.label_content, .label_content:visited {
+  color: inherit;
+  text-decoration: none;
+}
 .label_title {
   font-weight: 600;
 }
