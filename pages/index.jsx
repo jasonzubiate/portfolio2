@@ -47,7 +47,7 @@ export default function Home({ work }) {
 							<div className={styles.status}>
 								<label className={styles.status_title}>Thinking About</label>
 								<label className={styles.status_body}>
-									Latest design trends, AI potential, new techniques in dance
+									Latest design trends, new techniques in dance
 									music production
 								</label>
 							</div>
