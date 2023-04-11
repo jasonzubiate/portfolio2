@@ -38,7 +38,7 @@ export default function Home({ work }) {
 						</h2>
 						<div className={styles.statuses}>
 							<div className={styles.status}>
-								<label className={styles.status_title}>Currenly</label>
+								<label className={styles.status_title}>Currently</label>
 								<label className={styles.status_body}>
 									Preparing for gradute school in fall 2023
 								</label>
