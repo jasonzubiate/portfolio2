@@ -80,9 +80,6 @@
   width: 50%;
 }
 @media screen and (max-width: 640px) {
-  .img {
-    background-color: red;
-  }
   .hero {
     flex-direction: column-reverse;
   }

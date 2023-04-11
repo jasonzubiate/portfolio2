@@ -47,7 +47,6 @@ export default function Self() {
 					className={styles.hero_img}
 					src={hero}
 					alt="Jason Zubiate"
-					quality={100}
 					priority
 				/>
 			</div>

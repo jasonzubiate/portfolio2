@@ -70,7 +70,7 @@ export default function Home({ work }) {
 							className={styles.img}
 							src={jasonimg}
 							alt={"Jason Zubiate"}
-							quality={100}
+							priority
 						/>
 					</div>
 				</div>
