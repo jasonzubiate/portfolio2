@@ -39,6 +39,7 @@ export default function ProjectHeader({ project }) {
             onClick={() => {
               setModalState(true);
             }}
+						disabled
           >
             View Project
           </button>
