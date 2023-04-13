@@ -5,14 +5,16 @@ export default function PasswordModal({ setModalState }) {
   return (
     <div className={styles.background}>
       <div className={styles.modal}>
-        <h1>Protected Page</h1>
+        <h2>Protected Page</h2>
         <p className={styles.p_italic}>
           This project is currently protected by an NDA. If you’d like access
           please <span className={styles.p_italic_bold}>request</span> a
           password.
         </p>
-        <button className={`${styles.btn} ${styles["primary-cta"]}`}>
-          Enter Password
+				<input className={styles.input} type="text" placeholder="Enter password" />
+        <div className={styles.btn_group}>
+				<button className={`${styles.btn} ${styles["primary-cta"]}`}>
+          Submit
         </button>
         <button
           className={styles.btn}
@@ -22,6 +24,7 @@ export default function PasswordModal({ setModalState }) {
         >
           Close
         </button>
+				</div>
       </div>
     </div>
   );

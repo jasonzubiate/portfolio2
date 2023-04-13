@@ -41,7 +41,6 @@ export default function anteaterwellness({ project }) {
 					className="img"
 					src={awhero}
 					alt={"Wellness App Mock Ups"}
-					quality={100}
 					priority
 				/>
 			</div>

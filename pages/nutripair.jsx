@@ -25,7 +25,6 @@ export default function nutripair({ project }) {
 					className="img"
 					src={nhero}
 					alt={"Nutripair Logo"}
-					quality={100}
 					priority
 				/>
 			</div>

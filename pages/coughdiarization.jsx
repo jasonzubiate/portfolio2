@@ -27,7 +27,6 @@ export default function coughdiarization({ project }) {
 					className="img"
 					src={cdhero}
 					alt={"ObvioHealth Logo"}
-					quality={100}
 					priority
 				/>
 			</div>
