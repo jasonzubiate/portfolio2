@@ -159,7 +159,6 @@ export default function Self() {
 								<p className={styles.p}>
 									B.S. Informatics: Human Computer Interaction, 2023
 								</p>
-								<p className={styles.p}>Minor: Computer Science, 2023</p>
 								<p className={styles.p}>Irvine, California</p>
 							</div>
 						</div>
