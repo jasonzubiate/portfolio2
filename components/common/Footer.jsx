@@ -5,13 +5,13 @@ export default function Footer() {
 		<div className={styles.footer}>
 			<div className={styles.label}>
 				<label className={styles.label_title}>Contact</label>
-				<a className={styles.label_content} href="mailto:jzubiate@uci.edu">
+				<a className={styles.link} href="mailto:jzubiate@uci.edu">
 					jzubiate@uci.edu
 				</a>
 			</div>
 			<div className={styles.label}>
 				<label className={styles.label_title}>Connect</label>
-				<label className={styles.label_content}>
+				<div>
 					<a
 						className={styles.link}
 						href="https://www.linkedin.com/in/jasonzubiate/"
@@ -29,7 +29,7 @@ export default function Footer() {
 					>
 						Github
 					</a>
-				</label>
+				</div>
 			</div>
 			<div className={styles.label}>
 				<label className={styles.label_title}>Based In</label>
