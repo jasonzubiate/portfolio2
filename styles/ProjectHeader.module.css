@@ -9,7 +9,7 @@
 }
 .h1 {
 	font-family: var(--SECONDARYFONT);
-	font-size: 3rem;
+	font-size: 2.75rem;
 	font-weight: 600;
 	font-style: italic;
 }
@@ -21,15 +21,15 @@
 }
 .label {
 	font-family: var(--SECONDARYFONT);
-	font-size: 24px;
+	font-size: 20px;
 	font-weight: 600;
 }
 .p {
-	font-size: 1.25rem;
+	font-size: 18px;
 }
 .p_italic {
 	font-family: var(--SECONDARYFONT);
-	font-size: 1.25rem;
+	font-size: 18px;
 	font-style: italic;
 }
 .p_italic_bold {
@@ -44,11 +44,11 @@
 	width: 25%;
 }
 .disclaimer {
-	margin-top: 4rem;
+	margin-top: 1.5rem;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	gap: 3rem;
+	gap: 2rem;
 }
 .btn {
 	font-size: 18px;
@@ -63,6 +63,10 @@
 }
 .btn:hover {
 	background-color: #a4d54c;
+}
+.link {
+	text-decoration: none;
+	color: inherit;
 }
 @media screen and (max-width: 640px) {
 	.header {

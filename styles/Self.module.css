@@ -62,6 +62,9 @@
 .primary-cta {
 	background-color: var(--BRIGHTGREEN);
 }
+.primary-cta:hover {
+	background-color: #a4d54c;
+}
 .label {
 	font-size: 1.25rem;
 	font-weight: 600;

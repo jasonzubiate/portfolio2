@@ -24,7 +24,7 @@ export default function HamburgerMenu({ toggle, setToggle }) {
       </Link>
       <Link
         className={styles.link}
-        href={"/"}
+        href={"/assets/doc/jasonzubiate.pdf"}
         onClick={() => {
           setToggle(!toggle);
         }}
