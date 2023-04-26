@@ -83,6 +83,7 @@
 @media screen and (max-width: 640px) {
   .hero {
     flex-direction: column-reverse;
+    border: none;
   }
   .hero_content,
   .hero_image {
@@ -115,7 +116,7 @@
     height: 1px;
     margin: 1rem 0;
   }
-  .work {
+  .section {
     border: none;
     padding: 2rem 1rem;
   }
