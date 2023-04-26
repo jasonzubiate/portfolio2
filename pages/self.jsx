@@ -80,7 +80,7 @@ export default function Self() {
 				<div className={styles.btn_group}>
 					<a
 						className={`${styles.btn} ${styles["primary-cta"]}`}
-						href="/assets/doc/jasonzubiate.pdf"
+						href="/assets/doc/Jason_Zubiate_UX_Resume.pdf"
 					>
 						Resume
 					</a>

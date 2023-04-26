@@ -40,7 +40,7 @@ export default function Navbar({ toggle, setToggle }) {
 					onClick={() => handleNavClick("music")}
 				/> */}
 				<NavItem
-					to={"/assets/doc/jasonzubiate.pdf"}
+					to={"/assets/doc/Jason_Zubiate_UX_Resume.pdf"}
 					label={"Resume"}
 					current={currentPage === "resume"}
 					onClick={() => handleNavClick("resume")}
