@@ -147,6 +147,11 @@
 	line-height: 160%;
 	margin-bottom: 2rem;
 }
+@media screen and (max-width: 1150px) {
+	.main {
+		padding: 0 4rem;
+	}
+}
 @media screen and (max-width: 640px) {
 	.main {
 		padding: 0;

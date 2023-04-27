@@ -22,6 +22,11 @@
 .link:hover {
   text-decoration: underline;
 }
+@media screen and (max-width: 1150px) {
+  .label {
+    font-size: 14px
+  }
+}
 @media screen and (max-width: 640px){
   .footer {
     flex-direction: column;
