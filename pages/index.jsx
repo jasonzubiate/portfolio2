@@ -4,7 +4,7 @@ import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import ProjectCard from "@/components/common/ProjectCard";
 import SmallCard from "@/components/SmallCard";
-import jasonimg from "@/public/assets/img/me.jpg";
+import jasonimg from "@/public/assets/img/me.png";
 import fsPromises from "fs/promises";
 import path from "path";
 
