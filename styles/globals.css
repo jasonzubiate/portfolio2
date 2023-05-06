@@ -151,6 +151,9 @@
 	.main {
 		padding: 0 4rem;
 	}
+	.project-container {
+		padding: 4rem 4rem;
+	}
 }
 @media screen and (max-width: 640px) {
 	.main {

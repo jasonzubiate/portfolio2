@@ -3,6 +3,13 @@ import path from "path";
 import Image from "next/image";
 import ProjectHeader from "@/components/ProjectHeader";
 import nhero from "@/public/assets/img/nutripair.png";
+import smartlook from "@/public/assets/img/smartlook.png";
+import nutriform from "@/public/assets/img/nutriform.png";
+import researchmethods from "@/public/assets/img/researchmethods.png";
+import nutritask1 from "@/public/assets/img/nutritask1.png";
+import nutritask2 from "@/public/assets/img/nutritask2.png";
+import nutritask3 from "@/public/assets/img/nutritask3.png";
+import nutrimindmap from "@/public/assets/img/nutrimindmap.png";
 
 export async function getStaticProps() {
 	const filePath = path.join(process.cwd(), "json/work.json");
@@ -26,7 +33,182 @@ export default function nutripair({ project }) {
 			<ProjectHeader project={project} />
 			<div className="project-container">
 				<div className="project-section">
-					<h2 className="project-h2">Overview</h2>
+					<h2 className="project-h2">Overvivew</h2>
+					<label className="project-label-large">About Nutripair</label>
+					<p className="project-p">
+						Nutripair is a nutritional health management startup located in
+						Irvine, California. The company is dedicated to developing a mobile
+						application tailored to individuals with specific dietary
+						restrictions. The application serves as an indispensable tool,
+						offering comprehensive nutritional and allergen information for menu
+						items available at prominent food chains and esteemed local
+						restaurants across the Southern California area.
+					</p>
+					<p className="project-p">
+						The team was preparing for the alpha release of their mobile
+						application, and I had the privilege of leading the user experience
+						design team. My main responsibility was to develop a comprehensive
+						usability testing plan and oversee the iterative improvements to the
+						application based on feedback from our group of dedicated user
+						testers. This marked the first time the general public would get a
+						glimpse of the application, making it crucial for us to capture and
+						analyze users' initial impressions.
+					</p>
+				</div>
+				<div className="project-section">
+					<h2 className="project-h2">Usability Testing Design Plan</h2>
+					<label className="project-label-large">
+						Building a Better Experience
+					</label>
+					<div className="project-subsection">
+						<h3 className="project-h3">Identifying Research Goals</h3>
+						<p className="project-p">
+							The research goals for the usability testing plan are a good fit
+							for the alpha release of the application. They are focused on
+							assessing how easy the app is to use, whether it is effective at
+							recommending safe fast food options, and how well it handles
+							searches and identifying safe menu items. The plan also looks at
+							how the app caters to users with multiple dietary restrictions,
+							its accessibility for users with different abilities, and how well
+							it recovers from errors. Finally, comparing the app with similar
+							ones in the market will help identify areas for improvement.
+							Overall, the testing plan is designed to capture users' initial
+							thoughts and feedback on the app during its alpha release.
+						</p>
+						<label className="project-label-18">Usability</label>
+						<p className="project-p">
+							Assessing the ease of use and overall user experience of the
+							application, including navigation, layout, and functionality,
+							especially for searching options based on food
+							intolerances/dietary restrictions.
+						</p>
+						<label className="project-label-18">Effectiveness</label>
+						<p className="project-p">
+							Determining if the recommended fast food options are appropriate
+							for the user's specified dietary restrictions and if the
+							recommendations are accurate.
+						</p>
+						<label className="project-label-18">Searchability</label>
+						<p className="project-p">
+							Assessing the effectiveness and accuracy of the search function
+							for finding restaurants and menu items that meet the user's
+							dietary restrictions.
+						</p>
+						<label className="project-label-18">Identification</label>
+						<p className="project-p">
+							Evaluating the ability of the application to clearly identify
+							which menu items are safe for users.
+						</p>
+						<label className="project-label-18">
+							Multiple Dietary Restrictions
+						</label>
+						<p className="project-p">
+							Testing how well the application can cater to users with multiple
+							dietary restrictions and search for restaurants that offer a wide
+							range of options that are safe for them to eat.
+						</p>
+						<label className="project-label-18">Accessibility</label>
+						<p className="project-p">
+							Evaluating the accessibility of the application for users with
+							different abilities, including those with visual or auditory
+							impairments.
+						</p>
+					</div>
+
+					<div className="project-subsection">
+						<h3 className="project-h3">Determining Research Methods</h3>
+						<p className="project-p">
+							To gain meaningful insights into the needs of our users and to
+							improve our Nutripair mobile application, we will be utilizing a
+							range of research methods. These include usability testing,
+							observations, focus groups, interviews, A/B testing, and surveys.
+							By combining these methods, we aim to collect user feedback
+							through different channels and identify areas where the
+							application can be improved. By implementing the insights gained
+							from this research, we strive to enhance the overall user
+							experience of the mobile application, ensuring that it caters
+							effectively to our users' dietary needs and restrictions.
+						</p>
+						<Image
+							className="img"
+							src={researchmethods}
+							alt={"Research Methods"}
+						/>
+					</div>
+					<div className="project-subsection">
+						<h3 className="project-h3">Testing Agenda</h3>
+						<p className="project-p">
+							For our first round of usability testing, we split our 50 users
+							into groups led by members of our UX team. Each group was assigned
+							three tasks that aligned with specific design goals. We recorded
+							the users as they interacted with the application using Smartlook
+							Analytics. After completing each task, we asked the testers to
+							fill out a Google form with four questions, two of which were
+							related to the task at hand and the other two more general
+							questions about their overall experience. This approach helped us
+							collect targeted feedback on each task and gain broader insights
+							into the users' experience as a whole.
+						</p>
+						<Image
+							className="img"
+							src={nutritask1}
+							alt={"Feedback Form"}
+							width={700}
+						/>
+						<Image
+							className="img"
+							src={nutritask2}
+							alt={"Feedback Form"}
+							width={700}
+						/>
+						<Image
+							className="img"
+							src={nutritask3}
+							alt={"Feedback Form"}
+							width={700}
+						/>
+						<Image
+							className="img"
+							src={nutriform}
+							alt={"Feedback Form"}
+							width={700}
+						/>
+					</div>
+					<div className="project-subsection">
+						<h3 className="project-h3">Insights With Smartlook</h3>
+						<p className="project-p">
+							During the testing session we tracked user interactions with
+							Smartlook. This provided our team with real-time session replays,
+							heatmaps, and funnels to help identify areas for improvement and
+							optimize user experience. data-driven decisions to improve it.
+						</p>
+					</div>
+					<Image className="img" src={smartlook} alt={"Smartlook Analytics"} />
+				</div>
+				<div className="project-section">
+					<h2 className="project-h2">One On One Feedback</h2>
+					<label className="project-label-large">
+						Hearing From Our Testers
+					</label>
+					<div className="project-subsection">
+						<h3 className="project-h3">Form Feeback</h3>
+						<p className="project-p">
+							Our Google Forms provided us with some of the most valuable
+							feedback of the entire testing cohort. Those who left detailed
+							comments on the form were asked to further discuss their comments
+							within the testing group. This allowed us to gain a better
+							understanding of the critiques as well as give me the opportunity
+							to ask the testers any follow up questions based on their
+							feedback.
+						</p>
+					</div>
+					<div className="project-subsection">
+						<h3 className="project-h3">Mapping User Feedback</h3>
+						<Image className="img" src={nutrimindmap} alt={"Smartlook Analytics"} />
+					</div>
+				</div>
+				<div className="project-section">
+					<h2 className="project-h2">Reflection</h2>
 					<label className="project-label-large">My Experience</label>
 					<p className="project-p">
 						Although I cannot publicly disclose the details of my internship
