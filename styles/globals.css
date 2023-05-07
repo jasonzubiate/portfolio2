@@ -35,20 +35,28 @@
 	}
 }
 
+/* UTILITIES */
+.center {
+	margin: 0 auto;
+}
+.highlight {
+	background-color: var(--BRIGHTGREEN);
+}
+
 .main {
 	background-color: var(--OFFWHITE);
 	color: var(--BLACK);
 	font-family: var(--PRIMARYFONT);
 	padding: 0 8rem;
 	overflow-x: hidden;
- }
- .link {
+}
+.link {
 	text-decoration: none;
 	color: inherit;
- }
- .link:hover {
+}
+.link:hover {
 	text-decoration: underline;
- }
+}
 .project-hero-img {
 	max-width: 100%;
 	height: 490px;
@@ -74,7 +82,7 @@
 	font-size: 1rem;
 	text-transform: uppercase;
 	margin-bottom: 0.5rem;
-	color: #5a5a5a	
+	color: #5a5a5a;
 }
 .project-label-large {
 	display: block;
@@ -86,6 +94,8 @@
 }
 .project-subsection {
 	margin-bottom: 3rem;
+	display: flex;
+	flex-direction: column;
 }
 .project-h3 {
 	font-size: 1.25rem;
@@ -147,6 +157,34 @@
 	line-height: 160%;
 	margin-bottom: 2rem;
 }
+.quotes {
+	font-family: var(--SECONDARYFONT);
+	font-size: 18px;
+	font-style: italic;
+	width: 60%;
+}
+.bullet {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	width: 70%;
+	margin-bottom: 2rem;
+}
+.bullet-point {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-width: 60px;
+	min-height: 60px;
+	background-color: var(--BRIGHTGREEN);
+	border: 4px solid var(--BLACK);
+	font-weight: 700;
+	font-size: 28px;
+	border-radius: 50%;
+}
+.bullet-text {
+	font-size: 20px;
+}
 @media screen and (max-width: 1150px) {
 	.main {
 		padding: 0 4rem;
@@ -174,14 +212,15 @@
 		font-size: 12px;
 		text-transform: uppercase;
 		margin-bottom: 0.5rem;
-		font-weight: 600;	
+		font-weight: 600;
 	}
 	.project-label-large {
 		font-size: 24px;
 		font-weight: 500;
 		margin-bottom: 2rem;
 	}
-	.label-card-large {width: 95%;
+	.label-card-large {
+		width: 95%;
 		padding: 1rem;
 	}
 	.label-card-large-label {
@@ -195,7 +234,7 @@
 	.project-h3 {
 		font-size: 17px;
 		font-weight: 500;
-		margin-bottom: .5rem;
+		margin-bottom: 0.5rem;
 	}
 	.project-p {
 		font-size: 15px;
@@ -207,7 +246,7 @@
 	}
 	.row {
 		flex-direction: column;
-		gap: .5rem;
+		gap: 0.5rem;
 	}
 	.display-container {
 		flex-direction: column;

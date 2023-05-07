@@ -150,25 +150,28 @@ export default function nutripair({ project }) {
 							into the users' experience as a whole.
 						</p>
 						<Image
-							className="img"
+							className="img center"
 							src={nutritask1}
 							alt={"Feedback Form"}
 							width={700}
 						/>
+						<br />
 						<Image
-							className="img"
+							className="img center"
 							src={nutritask2}
 							alt={"Feedback Form"}
 							width={700}
 						/>
+						<br />
 						<Image
-							className="img"
+							className="img center"
 							src={nutritask3}
 							alt={"Feedback Form"}
 							width={700}
 						/>
+						<br />
 						<Image
-							className="img"
+							className="img center"
 							src={nutriform}
 							alt={"Feedback Form"}
 							width={700}
@@ -182,8 +185,12 @@ export default function nutripair({ project }) {
 							heatmaps, and funnels to help identify areas for improvement and
 							optimize user experience. data-driven decisions to improve it.
 						</p>
+						<Image
+							className="img"
+							src={smartlook}
+							alt={"Smartlook Analytics"}
+						/>
 					</div>
-					<Image className="img" src={smartlook} alt={"Smartlook Analytics"} />
 				</div>
 				<div className="project-section">
 					<h2 className="project-h2">One On One Feedback</h2>
@@ -201,10 +208,68 @@ export default function nutripair({ project }) {
 							to ask the testers any follow up questions based on their
 							feedback.
 						</p>
+						<q className="quotes center">
+							One recommendation would be to{" "}
+							<span className="highlight">
+								use different colors to separate the macro breakdown section
+							</span>{" "}
+							that uses green with the green on the food allergen.
+						</q>
+						<br />
+						<br />
+						<q className="quotes center">
+							“It was{" "}
+							<span className="highlight">
+								not intuitively clear how the Details section is different from
+								the Nutrition section.
+							</span>{" "}
+							Both pages display nutritional information such as calories,
+							protein, carbs, and fats.”
+						</q>
+						<br />
+						<br />
+						<q className="quotes center">
+							If a users is able to search or filter menu items by category it
+							would be useful.{" "}
+							<span className="highlight">
+								It was a bit difficult to scroll through entire the menu list
+							</span>{" "}
+							to find the item.
+						</q>
 					</div>
 					<div className="project-subsection">
 						<h3 className="project-h3">Mapping User Feedback</h3>
-						<Image className="img" src={nutrimindmap} alt={"Smartlook Analytics"} />
+						<Image
+							className="img"
+							src={nutrimindmap}
+							alt={"Smartlook Analytics"}
+						/>
+						<br />
+						<p className="project-p">
+							Our team thoroughly documented all the feedback received from our
+							usability testing session on a Miro board and identified three
+							primary areas of concern within the application. These areas
+							include page navigation, the Menu Item Page, and our menu item
+							filtering functionality.
+						</p>
+						<div className="bullet center">
+							<div className="bullet-point">1</div>
+							<p className="bullet-text">
+								Redesign the macro breakdown chart on the menu item details tab
+							</p>
+						</div>
+						<div className="bullet center">
+							<div className="bullet-point">2</div>
+							<p className="bullet-text">
+								Implement a menu category selector that navigates users to the corresponding section of the menu
+							</p>
+						</div>
+						<div className="bullet center">
+							<div className="bullet-point">3</div>
+							<p className="bullet-text">
+							Expand the current filter options from the existing set of 8 allergens to encompass a wider range of nutritional factors. 
+							</p>
+						</div>
 					</div>
 				</div>
 				<div className="project-section">
