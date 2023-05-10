@@ -95,7 +95,7 @@ export default function nutripair({ project }) {
                 based on feedback from our group of dedicated user testers. This
                 marked the first time the general public would get a glimpse of
                 the application, making it crucial for us to capture and analyze
-                users' initial impressions.
+                users&apos; initial impressions.
               </p>
             </div>
             <div className="project-section">
@@ -124,13 +124,13 @@ export default function nutripair({ project }) {
                 <p className="project-p">
                   <span className="bold">Effectiveness: </span>Determining if
                   the recommended fast food options are appropriate for the
-                  user's specified dietary restrictions and if the
+                  user&apos;s specified dietary restrictions and if the
                   recommendations are accurate.
                 </p>
                 <p className="project-p">
                   <span className="bold">Searchability: </span>Assessing the
                   effectiveness and accuracy of the search function for finding
-                  restaurants and menu items that meet the user's dietary
+                  restaurants and menu items that meet the user&apos;s dietary
                   restrictions.
                 </p>
                 <p className="project-p">
@@ -164,7 +164,7 @@ export default function nutripair({ project }) {
                   the application can be improved. By implementing the insights
                   gained from this research, we strive to enhance the overall
                   user experience of the mobile application, ensuring that it
-                  caters effectively to our users' dietary needs and
+                  caters effectively to our users&apos; dietary needs and
                   restrictions.
                 </p>
                 <Image
@@ -192,7 +192,7 @@ export default function nutripair({ project }) {
                     experience.
                   </span>{" "}
                   This approach helped us collect targeted feedback on each task
-                  and gain broader insights into the users' experience as a
+                  and gain broader insights into the users&apos; experience as a
                   whole.
                 </p>
               </div>
@@ -233,7 +233,7 @@ export default function nutripair({ project }) {
                   <span className="highlight">
                     our team had to review the recorded sessions retrospectively
                   </span>{" "}
-                  in order to observe the users' initial experiences with the
+                  in order to observe the users&apos; initial experiences with the
                   app.
                 </p>
               </div>
@@ -269,7 +269,7 @@ export default function nutripair({ project }) {
                   This form consisted of two task-related questions and two
                   general usability questions, which were included in all the
                   forms. By incorporating these questions into the forms, we
-                  aimed to gather valuable insights about the users' experiences
+                  aimed to gather valuable insights about the users&apos; experiences
                   with specific tasks as well as their overall impressions of
                   the usability of the application.
                 </p>
@@ -457,7 +457,7 @@ export default function nutripair({ project }) {
                   intelligent filtering, intuitive categorization, and efficient
                   menu organization. These findings assisted in devising
                   solutions to optimize the search and navigation process within
-                  our application's restaurant page, ensuring users could easily
+                  our application&apos;s restaurant page, ensuring users could easily
                   navigate through extensive menus and quickly find the items
                   they desired.
                 </p>
@@ -502,7 +502,7 @@ export default function nutripair({ project }) {
               <div className="project-subsection">
                 <h3 className="project-h3">Expanded Filter Options</h3>
                 <p className="project-p">
-                  In response to the users' request for additional filtering
+                  In response to the users&apos; request for additional filtering
                   options, our team conducted thorough research on various
                   factors related to managing nutritional health.{" "}
                   <span className="highlight">

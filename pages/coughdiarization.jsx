@@ -45,7 +45,7 @@ export default function coughdiarization({ project }) {
 								identify the individual who coughed within a room and provide
 								insights into the respiratory illnesses they might be
 								experiencing. Through advanced machine learning techniques, we
-								improved the model's ability to distinguish between different
+								improved the model&apos;s ability to distinguish between different
 								individuals and accurately associate their coughs with specific
 								respiratory conditions.
 							</p>
@@ -239,7 +239,7 @@ export default function coughdiarization({ project }) {
 									Error Rate, to enhance the evaluation of our cough
 									classification and diarization models. These metrics were
 									selected based on the insights provided by Prof. Shri
-									Narayanan's research paper.{" "}
+									Narayanan&apos;s research paper.{" "}
 									<span className="highlight3">
 										The Jaccard Error Rate served as a measure of similarity
 										between the predicted and true segmentation, while the
