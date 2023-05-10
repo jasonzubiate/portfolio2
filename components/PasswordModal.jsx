@@ -5,7 +5,7 @@ export default function PasswordModal({ setModalState, setView }) {
   const [password, setPassword] = useState("");
 
   function handleSubmit() {
-    const correctPassword = "jz90521308";
+    const correctPassword = "90521308";
     if (password === correctPassword) {
       setModalState(false);
 			setView(true)
