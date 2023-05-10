@@ -21,7 +21,7 @@ export async function getStaticProps() {
 	};
 }
 
-export default function coughdiarization({ project }) {
+export default function CoughDiarization({ project }) {
 	const [view, setView] = useState(false);
 	const heroColorStyle = { backgroundColor: "#00000" };
 	return (

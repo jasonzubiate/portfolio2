@@ -32,7 +32,7 @@ export async function getStaticProps() {
 	};
 }
 
-export default function anteaterwellness({ project }) {
+export default function AnteaterWellness({ project }) {
 	const heroColorStyle = { backgroundColor: "white" };
 	return (
 		<div>
