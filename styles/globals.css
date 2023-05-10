@@ -126,8 +126,8 @@
 .card-large {
   font-size: 1.25rem;
 }
-.project-img-full {
-  width: 100%;
+.project-img-display {
+  width: 250px;
   height: auto;
   margin-bottom: 2rem;
 }
@@ -196,12 +196,16 @@
   font-size: 20px;
   line-height: 160%;
 }
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1350px) {
   .main {
     padding: 0 4rem;
   }
   .project-container {
     padding: 4rem 4rem;
+  }
+  .project-img-display {
+    max-width: 200px;
+    height: auto;
   }
 }
 @media screen and (max-width: 640px) {
@@ -268,7 +272,7 @@
     margin-bottom: 2rem;
   }
   .project-img-display {
-    width: 70%;
+    width: 150px;
     height: auto;
     margin: auto;
   }

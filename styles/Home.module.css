@@ -82,7 +82,7 @@
 	border-top: 3px solid var(--BLACK);
 	width: 50%;
 }
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1350px) {
 	.hero {
 		flex-direction: column-reverse;
 		border-bottom: none;

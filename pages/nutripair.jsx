@@ -62,7 +62,6 @@ export default function Nutripair({ project }) {
 									className="project-img-display center"
 									src={nutrihome}
 									alt={"Nutripair App"}
-									width={250}
 									quality={100}
 									priority
 								/>
@@ -70,7 +69,6 @@ export default function Nutripair({ project }) {
 									className="project-img-display center"
 									src={nutrirestaurant}
 									alt={"Nutripair App"}
-									width={250}
 									quality={100}
 									priority
 								/>
@@ -78,7 +76,6 @@ export default function Nutripair({ project }) {
 									className="project-img-display center"
 									src={nutrimenuitem}
 									alt={"Nutripair App"}
-									width={250}
 									quality={100}
 									priority
 								/>
