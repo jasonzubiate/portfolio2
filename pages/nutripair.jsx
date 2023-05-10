@@ -31,7 +31,7 @@ export async function getStaticProps() {
   };
 }
 
-export default function Nutripair({ project }) {
+export default function nutripair({ project }) {
   const [view, setView] = useState(false);
   const heroColorStyle = { backgroundColor: "white" };
   return (
