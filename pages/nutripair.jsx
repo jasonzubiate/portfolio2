@@ -17,7 +17,7 @@ import nutricompanalysis from "@/public/assets/img/nutricompanalysis.png";
 import ubereatsmenu from "@/public/assets/img/ubereatsmenu.png";
 import mcdonaldsdeals from "@/public/assets/img/mcdonaldsdeals.png";
 import nutripaircaurosel from "@/public/assets/img/nutripaircaurosel.png";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 export async function getStaticProps() {
   const filePath = path.join(process.cwd(), "json/work.json");
