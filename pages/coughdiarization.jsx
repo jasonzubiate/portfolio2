@@ -29,7 +29,7 @@ export default function CoughDiarization({ project }) {
 			<div className="project-hero-img" style={heroColorStyle}>
 				<Image className="img" src={cdhero} alt={"ObvioHealth Logo"} priority />
 			</div>
-			<ProjectHeader project={project} setView={setView} />
+			<ProjectHeader project={project} view={view} setView={setView} />
 			<div className="project-container">
 				{view && (
 					<>

@@ -39,7 +39,7 @@ export default function Nutripair({ project }) {
 			<div className="project-hero-img" style={heroColorStyle}>
 				<Image className="img" src={nhero} alt={"Nutripair Logo"} priority />
 			</div>
-			<ProjectHeader project={project} setView={setView} />
+			<ProjectHeader project={project} view={view} setView={setView} />
 			<div className="project-container">
 				{view && (
 					<>
