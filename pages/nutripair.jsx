@@ -169,7 +169,6 @@ export default function Nutripair({ project }) {
 									src={researchmethods}
 									alt={"Research Methods"}
 								/>
-								<br />
 							</div>
 							<div className="project-subsection">
 								<h3 className="project-h3">Testing Agenda</h3>
@@ -198,24 +197,21 @@ export default function Nutripair({ project }) {
 								<Image
 									className="img center"
 									src={nutritask1}
-									alt={"Feedback Form"}
+									alt={"Task"}
 									// width={800}
 								/>
-								<br />
 								<Image
 									className="img center"
 									src={nutritask2}
-									alt={"Feedback Form"}
+									alt={"Task"}
 									// width={800}
 								/>
-								<br />
 								<Image
 									className="img center"
 									src={nutritask3}
-									alt={"Feedback Form"}
+									alt={"Task"}
 									// width={800}
 								/>
-								<br />
 								<p className="project-p">
 									The usability testing session yielded highly positive results,
 									with the majority of users successfully accomplishing all
@@ -276,7 +272,6 @@ export default function Nutripair({ project }) {
 									alt={"Feedback Form"}
 									width={700}
 								/>
-								<br />
 								<p className="project-p">
 									Our Google Forms provided us with some of the most valuable
 									feedback of the entire testing cohort. Those who left detailed
@@ -319,7 +314,6 @@ export default function Nutripair({ project }) {
 							<div className="project-subsection">
 								<h3 className="project-h3">Mapping User Feedback</h3>
 								<Image className="img" src={nutrimindmap} alt={"Miro Board"} />
-								<br />
 								<p className="project-p">
 									Our team thoroughly documented all the feedback received from
 									our usability testing session on a Miro board and identified
@@ -427,7 +421,6 @@ export default function Nutripair({ project }) {
 									src={nutricompanalysis}
 									alt={"Competitive Analysis"}
 								/>
-								<br />
 								<p className="project-p">
 									In addition to the competitive analysis, I took a detailed
 									approach by identifying the most effective components from
@@ -464,16 +457,14 @@ export default function Nutripair({ project }) {
 									alt={"Uber Eats Menu"}
 									width={400}
 								/>
-								<br />
-								<br />
+				
 								<Image
 									className="project-img-display center"
 									src={mcdonaldsdeals}
 									alt={"McDonalds"}
 									width={400}
 								/>
-								<br />
-								<br />
+								
 								<p className="project-p">
 									Based on my research,{" "}
 									<span className="highlight">
