@@ -14,6 +14,12 @@ export default function PasswordModal({ setModalState, setView }) {
     }
   }
 
+  function handleKeyDown(event) {
+    if (event.key === "Enter") {
+      handleSubmit();
+    }
+  }
+
   return (
     <div className={styles.background}>
       <div className={styles.modal}>
@@ -34,6 +40,7 @@ export default function PasswordModal({ setModalState, setView }) {
           placeholder="Enter password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
+          onKeyDown={handleKeyPress}
         />
         <div className={styles.btn_group}>
           <button
