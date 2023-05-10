@@ -39,8 +39,7 @@
 	justify-content: center;
 }
 .uci_img {
-	max-width: 100%;
-	width: 50%;
+	width: 150px;
 	height: auto;
 	position: absolute;
 }
@@ -137,9 +136,6 @@
 	.btn {
 		width: 100%;
 		text-align: center;
-	}
-	.uci_img {
-		width: 150px;
 	}
 }
 @media screen and (max-width: 640px) {
