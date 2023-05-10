@@ -59,7 +59,7 @@ export default function AnteaterWellness({ project }) {
 						</p>
 					</div>
 					<Image
-						className="project-img-full"
+						className="img"
 						src={designprocess}
 						alt={"Product Prospective"}
 						quality={100}
@@ -92,7 +92,7 @@ export default function AnteaterWellness({ project }) {
 							dependencies, and apportioning of requirements.
 						</p>
 						<Image
-							className="project-img-full"
+							className="img"
 							src={productprospectiveimg}
 							alt={"Product Prospective"}
 							quality={100}
@@ -198,7 +198,7 @@ export default function AnteaterWellness({ project }) {
 							information of health & wellness and campus events.
 						</p>
 						<Image
-							className="project-img-full"
+							className="img"
 							src={surveyresultsimg}
 							alt={"Survey Results"}
 							quality={100}
@@ -214,17 +214,17 @@ export default function AnteaterWellness({ project }) {
 							main student types I encounter
 						</p>
 						<Image
-							className="project-img-full"
+							className="img"
 							src={persona1}
 							alt={"Survey Results"}
 						/>
 						<Image
-							className="project-img-full"
+							className="img"
 							src={persona2}
 							alt={"Survey Results"}
 						/>
 						<Image
-							className="project-img-full"
+							className="img"
 							src={persona3}
 							alt={"Survey Results"}
 						/>
@@ -244,7 +244,7 @@ export default function AnteaterWellness({ project }) {
 							main features of mental health, events, and goal tracking apps.
 						</p>
 						<Image
-							className="project-img-full"
+							className="img"
 							src={awcompanalysis}
 							alt={"Competitive Analysis"}
 							quality={100}
@@ -338,7 +338,7 @@ export default function AnteaterWellness({ project }) {
 						wireframes to visualize the process.
 					</p>
 					<Image
-						className="project-img-full"
+						className="img"
 						src={userflowimg}
 						alt={"User Flow"}
 					/>
@@ -385,7 +385,7 @@ export default function AnteaterWellness({ project }) {
 							identity for the brand.
 						</p>
 						<Image
-							className="project-img-full"
+							className="img"
 							src={poppinsimg}
 							alt={"Styling"}
 							quality={100}
