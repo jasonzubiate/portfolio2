@@ -49,7 +49,8 @@
 	display: flex;
 	gap: 2rem;
 }
-.btn, .btn:visited {
+.btn,
+.btn:visited {
 	padding: 15px 30px;
 	font-size: 1.25rem;
 	font-weight: 600;
@@ -126,6 +127,21 @@
 	outline: none;
 	background-position: 0 0;
 }
+@media screen and (max-width: 1350px) {
+	.content {
+		padding: 4rem;
+	}
+	.bio_text {
+		width: 60%;
+	}
+	.btn {
+		width: 100%;
+		text-align: center;
+	}
+	.uci_img {
+		width: 150px;
+	}
+}
 @media screen and (max-width: 640px) {
 	.hero {
 		border-left: none;
@@ -180,10 +196,9 @@
 	.btn {
 		padding: 15px 20px;
 		font-size: 14px;
-    font-weight: 700;
+		font-weight: 700;
 		border: 3px solid var(--BLACK);
-		width: 100%;
-		text-align: center;
+		
 	}
 	.uci_img {
 		display: none;
@@ -191,11 +206,11 @@
 	.form {
 		margin-top: 3rem;
 	}
-  .form > .input {
-    border-bottom: solid 3px var(--BLACK);
-  }
+	.form > .input {
+		border-bottom: solid 3px var(--BLACK);
+	}
 	.form > .input,
 	.input::placeholder {
-    font-size: 18px;
+		font-size: 18px;
 	}
 }
