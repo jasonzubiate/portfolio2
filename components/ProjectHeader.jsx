@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useState } from "react";
 import PasswordModal from "@/components/PasswordModal";
 
-export default function ProjectHeader({ project }) {
+export default function ProjectHeader({ project, setView }) {
 	const [modalState, setModalState] = useState(false);
 
 	return (
@@ -50,7 +50,7 @@ export default function ProjectHeader({ project }) {
 					</button>
 				</div>
 			)}
-			{modalState && <PasswordModal setModalState={setModalState} />}
+			{modalState && <PasswordModal setModalState={setModalState} setView={setView}/>}
 		</div>
 	);
 }

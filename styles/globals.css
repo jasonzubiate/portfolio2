@@ -2,260 +2,288 @@
 @import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,600;1,400;1,600;1,700&display=swap");
 
 :root {
-	/* FONTS */
-	--PRIMARYFONT: "Sora", sans-serif;
-	--SECONDARYFONT: "Bitter", serif;
+  /* FONTS */
+  --PRIMARYFONT: "Sora", sans-serif;
+  --SECONDARYFONT: "Bitter", serif;
 
-	/* COLORS */
-	--OFFWHITE: #f7f7f7;
-	--BLACK: #0d0e0b;
-	--BRIGHTGREEN: #c8f377;
-	--LIGHTBLUE: #3487fd;
-	--LIGHTGREY: #f1f1f0;
+  /* COLORS */
+  --OFFWHITE: #f7f7f7;
+  --BLACK: #0d0e0b;
+  --BRIGHTGREEN: #c8f377;
+  --LIGHTBLUE: #3487fd;
+  --LIGHTGREY: #f1f1f0;
 }
 
 /* RESET */
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* ANIMATIONS */
 .fadein {
-	animation: fadeIn 1.5s;
+  animation: fadeIn 1.5s;
 }
 
 @keyframes fadeIn {
-	from {
-		opacity: 0;
-	}
-	to {
-		opacity: 1;
-	}
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /* UTILITIES */
 .center {
-	margin: 0 auto;
+  margin: 0 auto;
 }
 .highlight {
-	background-color: var(--BRIGHTGREEN);
+  background-color: var(--BRIGHTGREEN);
+}
+.highlight2 {
+  background-color: #fff679;
+}
+.bold {
+  font-weight: 700;
 }
 
 .main {
-	background-color: var(--OFFWHITE);
-	color: var(--BLACK);
-	font-family: var(--PRIMARYFONT);
-	padding: 0 8rem;
-	overflow-x: hidden;
+  background-color: var(--OFFWHITE);
+  color: var(--BLACK);
+  font-family: var(--PRIMARYFONT);
+  padding: 0 8rem;
+  overflow-x: hidden;
 }
 .link {
-	text-decoration: none;
-	color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 .link:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 .project-hero-img {
-	max-width: 100%;
-	height: 490px;
-	display: flex;
-	justify-content: center;
-	border-left: 5px solid var(--BLACK);
-	border-right: 5px solid var(--BLACK);
+  max-width: 100%;
+  height: 490px;
+  display: flex;
+  justify-content: center;
+  border-left: 5px solid var(--BLACK);
+  border-right: 5px solid var(--BLACK);
 }
 .img {
-	max-width: 100%;
-	height: auto;
-	object-fit: cover;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 .project-container {
-	padding: 4rem 328px;
-	border-left: 5px solid var(--BLACK);
-	border-right: 5px solid var(--BLACK);
+  padding: 4rem 328px;
+  border-left: 5px solid var(--BLACK);
+  border-right: 5px solid var(--BLACK);
 }
 .project-section {
-	margin-bottom: 6rem;
+  margin-bottom: 6rem;
 }
 .project-h2 {
-	font-size: 1rem;
-	text-transform: uppercase;
-	margin-bottom: 0.5rem;
-	color: #5a5a5a;
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+  color: #5a5a5a;
 }
 .project-label-large {
-	display: block;
-	font-family: var(--SECONDARYFONT);
-	font-style: italic;
-	font-size: 36px;
-	font-weight: 600;
-	margin-bottom: 3rem;
+  display: block;
+  font-family: var(--SECONDARYFONT);
+  font-style: italic;
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 3rem;
 }
 .project-subsection {
-	margin-bottom: 3rem;
-	display: flex;
-	flex-direction: column;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
 }
 .project-h3 {
-	font-size: 1.25rem;
-	font-weight: 600;
-	margin-bottom: 1rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
 }
 .project-p {
-	font-size: 18px;
-	font-weight: 400;
-	line-height: 160%;
-	margin-bottom: 2rem;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 160%;
+  margin-bottom: 2rem;
 }
 .project-label-18 {
-	display: block;
-	font-size: 18px;
-	font-weight: 600;
-	margin-bottom: 0.5rem;
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
 }
 .card-large {
-	font-size: 1.25rem;
+  font-size: 1.25rem;
 }
 .project-img-full {
-	width: 100%;
-	height: auto;
-	margin-bottom: 2rem;
+  width: 100%;
+  height: auto;
+  margin-bottom: 2rem;
 }
 .display-container {
-	display: flex;
-	width: 100%;
-	justify-content: center;
-	gap: 4rem;
-	margin-bottom: 2rem;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 4rem;
+  margin-bottom: 2rem;
 }
 .label-card-large {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	width: 70%;
-	padding: 2rem;
-	background-color: var(--LIGHTGREY);
-	border: 4px solid var(--BLACK);
-	box-shadow: 4px 4px 0px var(--BLACK);
-	gap: 1rem;
-	margin: auto;
-	margin-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  padding: 2rem;
+  background-color: var(--LIGHTGREY);
+  border: 4px solid var(--BLACK);
+  box-shadow: 4px 4px 0px var(--BLACK);
+  gap: 1rem;
+  margin: auto;
+  margin-bottom: 4rem;
 }
 .label-card-large-label {
-	font-size: 22px;
-	font-weight: 600;
-	text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 .label-card-large-p {
-	font-size: 24px;
+  font-size: 24px;
 }
 .row {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	line-height: 160%;
-	margin-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  line-height: 160%;
+  margin-bottom: 2rem;
 }
 .quotes {
-	font-family: var(--SECONDARYFONT);
-	font-size: 18px;
-	font-style: italic;
-	width: 60%;
+  font-family: var(--SECONDARYFONT);
+  font-size: 20px;
+  font-style: italic;
+  width: 60%;
+  line-height: 160%;
 }
 .bullet {
-	display: flex;
-	align-items: center;
-	gap: 1rem;
-	width: 70%;
-	margin-bottom: 2rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  width: 70%;
+  margin-bottom: 2rem;
 }
 .bullet-point {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	min-width: 60px;
-	min-height: 60px;
-	background-color: var(--BRIGHTGREEN);
-	border: 4px solid var(--BLACK);
-	font-weight: 700;
-	font-size: 28px;
-	border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 60px;
+  min-height: 60px;
+  background-color: var(--BRIGHTGREEN);
+  border: 4px solid var(--BLACK);
+  font-weight: 700;
+  font-size: 28px;
+  border-radius: 50%;
 }
 .bullet-text {
-	font-size: 20px;
+  font-size: 20px;
+  line-height: 160%;
 }
 @media screen and (max-width: 1150px) {
-	.main {
-		padding: 0 4rem;
-	}
-	.project-container {
-		padding: 4rem 4rem;
-	}
+  .main {
+    padding: 0 4rem;
+  }
+  .project-container {
+    padding: 4rem 4rem;
+  }
 }
 @media screen and (max-width: 640px) {
-	.main {
-		padding: 0;
-	}
-	.project-hero-img {
-		height: 250px;
-		border: none;
-	}
-	.project-container {
-		padding: 3rem 1rem;
-		border: 0;
-	}
-	.project-section {
-		margin-bottom: 4rem;
-	}
-	.project-h2 {
-		font-size: 12px;
-		text-transform: uppercase;
-		margin-bottom: 0.5rem;
-		font-weight: 600;
-	}
-	.project-label-large {
-		font-size: 24px;
-		font-weight: 500;
-		margin-bottom: 2rem;
-	}
-	.label-card-large {
-		width: 95%;
-		padding: 1rem;
-	}
-	.label-card-large-label {
+  .main {
+    padding: 0;
+  }
+  .project-hero-img {
+    height: 250px;
+    border: none;
+  }
+  .project-container {
+    padding: 3rem 1rem;
+    border: 0;
+  }
+  .project-section {
+    margin-bottom: 4rem;
+  }
+  .project-subsection {
+    margin-bottom: 1.5rem;
+  }
+  .project-h2 {
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+  }
+  .project-label-large {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 2rem;
+  }
+  .label-card-large {
+    width: 95%;
+    padding: 1rem;
+  }
+  .label-card-large-label {
+    font-size: 14px;
+  }
+  .label-card-large-p {
+    font-size: 15px;
+    line-height: 160%;
+    font-weight: 300;
+  }
+  .project-h3 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+  }
+  .project-p {
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 1rem;
+  }
+  .project-label-18 {
+    font-size: 14px;
+  }
+  .row {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .display-container {
+    flex-direction: column;
+    gap: 3rem;
+    margin-bottom: 2rem;
+  }
+  .project-img-display {
+    width: 70%;
+    height: auto;
+    margin: auto;
+  }
+  .bullet {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .bullet-point {
+    font-size: 18px;
+		min-width: 32px;
+		min-height: 32px;
+    border: 3px solid var(--BLACK);
+  }
+  .bullet-text {
+    font-size: 14px;
+  }
+	.quotes {
+		width: 90%;
 		font-size: 14px;
-	}
-	.label-card-large-p {
-		font-size: 15px;
-		line-height: 160%;
-		font-weight: 300;
-	}
-	.project-h3 {
-		font-size: 17px;
-		font-weight: 500;
-		margin-bottom: 0.5rem;
-	}
-	.project-p {
-		font-size: 15px;
-		font-weight: 300;
-		margin-bottom: 1rem;
-	}
-	.project-label-18 {
-		font-size: 14px;
-	}
-	.row {
-		flex-direction: column;
-		gap: 0.5rem;
-	}
-	.display-container {
-		flex-direction: column;
-		gap: 3rem;
-		margin-bottom: 2rem;
-	}
-	.project-img-display {
-		width: 70%;
-		height: auto;
-		margin: auto;
 	}
 }
