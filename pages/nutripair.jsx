@@ -137,7 +137,7 @@ export default function Nutripair({ project }) {
 								</p>
 
 								<p className="project-p">
-									<span className="bold">Multiple Dietary Restrictions</span>
+									<span className="bold">Multiple Dietary Restrictions: </span>
 									Testing how well the application can cater to users with
 									multiple dietary restrictions and search for restaurants that
 									offer a wide range of options that are safe for them to eat.
