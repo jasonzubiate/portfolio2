@@ -75,7 +75,7 @@
   border-right: 5px solid var(--BLACK);
 }
 .img {
-  max-width: 100%;
+  width: 100%;
   height: 100%;
   object-fit: cover;
   margin-bottom: 1.5rem;

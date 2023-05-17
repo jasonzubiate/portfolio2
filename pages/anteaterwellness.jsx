@@ -95,7 +95,6 @@ export default function AnteaterWellness({ project }) {
 							className="img"
 							src={productprospectiveimg}
 							alt={"Product Prospective"}
-							quality={100}
 						/>
 						<p className="project-p">
 							In addition to these findings, the wellness center staff provided
@@ -201,7 +200,6 @@ export default function AnteaterWellness({ project }) {
 							className="img"
 							src={surveyresultsimg}
 							alt={"Survey Results"}
-							quality={100}
 						/>
 					</div>
 					<div className="project-subsection">
