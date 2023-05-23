@@ -16,11 +16,11 @@ export default function ProjectHeader({ project, view, setView }) {
 			<div className={styles.info_row}>
 				<div className={styles.info}>
 					<label className={styles.label}>Role</label>
-					<p className={styles.p}>{project.roles.join(", ")}</p>
+					<p className={styles.p}>{project.roles[0]}</p>
 				</div>
 				<div className={styles.info}>
 					<label className={styles.label}>Timeline</label>
-					<p className={styles.p}>{project.dates.join(", ")}</p>
+					<p className={styles.p}>{project.dates[0]}</p>
 				</div>
 				<div className={styles.info}>
 					<label className={styles.label}>Tools</label>
