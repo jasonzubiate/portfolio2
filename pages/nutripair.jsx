@@ -549,10 +549,10 @@ export default function nutripair({ project }) {
             <p className="project-p">
               As a new designer working in a startup environment, I quickly
               realized that there were unique obstacles that challenged certain
-              parts of the design process that I was previously familiar with.
+              parts of the design process that I was previously familiar with.{" "}
               <span className="highlight">
                 One of the biggest challenges was maintaining user retention for
-                an application that was new to users{" "}
+                an application that was new to users
               </span>{" "}
               and did not have the advantage of familiarity that larger, more
               established companies possess. As a designer who loves to iterate

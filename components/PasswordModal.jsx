@@ -18,7 +18,7 @@ export default function PasswordModal({ setModalState, setView }) {
     <div className={styles.background}>
       <div className={styles.modal}>
         <h2 className={styles.h2}>Protected Page</h2>
-        <p clsassName={styles.p_italic}>
+        <p className={styles.p}>
           This project is currently protected by an NDA. If you’d like access
           please{" "}
           <span className={styles.p_italic_bold}>
