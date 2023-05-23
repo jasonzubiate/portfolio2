@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useState } from "react";
 import PasswordModal from "@/components/PasswordModal";
 
-export default function ProjectHeader({ project, setView }) {
+export default function ProjectHeader({ project, view, setView }) {
 	const [modalState, setModalState] = useState(false);
 
 	return (
@@ -27,7 +27,7 @@ export default function ProjectHeader({ project, setView }) {
 					<p className={styles.p}>{project.tools.join(", ")}</p>
 				</div>
 			</div>
-			{project.NDA && (
+			{project.NDA && !view && (
 				<div className={styles.disclaimer}>
 					<p className={styles.p_italic}>
 						This project is currently protected by an NDA. If you’d like access
@@ -44,7 +44,6 @@ export default function ProjectHeader({ project, setView }) {
 						onClick={() => {
 							setModalState(true);
 						}}
-						// disabled
 					>
 						View Project
 					</button>

@@ -142,14 +142,14 @@ export default function Self() {
 								<label className={styles.label}>
 									Nutripair - UX Design Team Lead
 								</label>
-								<p className={styles.p}>January 2023 - Present</p>
+								<p className={styles.p}>January 2023 - April 2023</p>
 								<p className={styles.p}>Irvine, California</p>
 							</div>
 							<div className={styles.experience_item}>
 								<label className={styles.label}>
 									Nutripair - Frontend Development Intern
 								</label>
-								<p className={styles.p}>January 2023 - Present</p>
+								<p className={styles.p}>June 2022 - October 2022</p>
 								<p className={styles.p}>Irvine, California</p>
 							</div>
 							<div className={styles.experience_item}>

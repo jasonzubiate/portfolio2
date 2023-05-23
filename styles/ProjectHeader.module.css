@@ -68,7 +68,7 @@
 	text-decoration: none;
 	color: inherit;
 }
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1350px) {
 	.header {
 		padding: 4rem;
 	}

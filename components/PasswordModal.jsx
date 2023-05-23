@@ -5,12 +5,18 @@ export default function PasswordModal({ setModalState, setView }) {
   const [password, setPassword] = useState("");
 
   function handleSubmit() {
-    const correctPassword = "jz90521308";
+    const correctPassword = "90521308";
     if (password === correctPassword) {
       setModalState(false);
 			setView(true)
     } else {
       alert("Incorrect password. Please try again.");
+    }
+  }
+
+  function handleKeyDown(event) {
+    if (event.key === "Enter") {
+      handleSubmit();
     }
   }
 
@@ -34,6 +40,7 @@ export default function PasswordModal({ setModalState, setView }) {
           placeholder="Enter password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
+          onKeyDown={handleKeyDown}
         />
         <div className={styles.btn_group}>
           <button
