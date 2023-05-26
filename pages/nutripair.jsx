@@ -46,7 +46,7 @@ export default function Nutripair({ project }) {
 						<div className="project-section">
 							<h2 className="project-h2">Overview</h2>
 							<label className="project-label-large">
-								Nutritional Health At Glance
+								Nutritional Health at a Glance
 							</label>
 							<p className="project-p">
 								Nutripair is a nutritional health management startup located in
@@ -142,33 +142,49 @@ export default function Nutripair({ project }) {
 									multiple dietary restrictions and search for restaurants that
 									offer a wide range of options that are safe for them to eat.
 								</p>
-								<p className="project-p">
-									<span className="bold">Accessibility: </span>Evaluating the
-									accessibility of the application for users with different
-									abilities, including those with visual or auditory
-									impairments.
-								</p>
 							</div>
 							<div className="project-subsection">
 								<h3 className="project-h3">Determining Research Methods</h3>
+								
 								<p className="project-p">
-									To gain meaningful insights into the needs of our users and to
-									improve our Nutripair mobile application, we will be utilizing
-									a range of research methods. These include usability testing,
-									observations, focus groups, interviews, A/B testing, and
-									surveys. By combining these methods, we aim to collect user
-									feedback through different channels and identify areas where
-									the application can be improved. By implementing the insights
-									gained from this research, we strive to enhance the overall
-									user experience of the mobile application, ensuring that it
-									caters effectively to our users&apos; dietary needs and
-									restrictions.
+									To gain meaningful insights into the needs of our users and
+									improve our Nutripair mobile application, we utilized a range
+									of research methods. These included conducting usability
+									testing combined with observations via Smartlook analytics.
+									Our team believed that being able to monitor the users while
+									they performed their usability tasks would provide essential
+									information. It was the first time our users were seeing the
+									application, so it was necessary to view their interactions
+									for future improvement. We also wanted to maintain monitoring
+									the users throughout the remainder of our alpha testing phase
+									to observe how they interacted with small updates to the app.
+								</p>
+								<p className="project-p">
+									I also felt the need to include focus groups during our
+									testing cohort after our initial usability testing session
+									with our participants. Valuable initial feedback could be
+									provided after the users viewed the application for the first
+									time, and I wanted to allow these users to share their
+									experiences among each other. At the conclusion of each
+									testing cohort, our team organized one-on-one interviews with
+									the top users of our application to gather their thoughts
+									after using the application for an extended period of time.
 								</p>
 								<Image
 									className="img"
 									src={researchmethods}
 									alt={"Research Methods"}
 								/>
+								<p className="project-p">
+									By combining these methods, we aimed to collect user feedback
+									through different channels and identify areas where the
+									application could be improved. By implementing the insights
+									gained from this research, we strived to enhance the overall
+									user experience of the mobile application, ensuring that it
+									catered effectively to our users' dietary needs and
+									restrictions.
+								</p>
+								
 							</div>
 							<div className="project-subsection">
 								<h3 className="project-h3">Testing Agenda</h3>
@@ -384,7 +400,7 @@ export default function Nutripair({ project }) {
 						<div className="project-section">
 							<h2 className="project-h2">Design Iteration</h2>
 							<label className="project-label-large">
-								Transforming Feedback into Experiences
+								Transforming Feedback Into Experiences
 							</label>
 							<div className="project-subsection">
 								<div className="project-h3">Menu Item Page</div>
@@ -457,14 +473,14 @@ export default function Nutripair({ project }) {
 									alt={"Uber Eats Menu"}
 									width={400}
 								/>
-				
+
 								<Image
 									className="project-img-display center"
 									src={mcdonaldsdeals}
 									alt={"McDonalds"}
 									width={400}
 								/>
-								
+
 								<p className="project-p">
 									Based on my research,{" "}
 									<span className="highlight">
