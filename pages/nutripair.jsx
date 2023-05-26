@@ -181,7 +181,7 @@ export default function Nutripair({ project }) {
 									application could be improved. By implementing the insights
 									gained from this research, we strived to enhance the overall
 									user experience of the mobile application, ensuring that it
-									catered effectively to our users' dietary needs and
+									catered effectively to our users&apos; dietary needs and
 									restrictions.
 								</p>
 								
