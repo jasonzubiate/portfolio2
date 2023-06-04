@@ -96,7 +96,7 @@ export default function Self() {
 					<div className={styles.design_item}>
 						<Image className={styles.icon} src={ideaimg} alt={"Idea"} />
 						<div className={styles.design_item_text}>
-							<label className={styles.label}>Rigorious Design Thinking</label>
+							<label className={styles.label}>Rigorous Design Thinking</label>
 							<p className={styles.p}>
 								I incorporate user-centered design principles and inclusivity
 								considerations into my design thinking process. By prioritizing
@@ -165,7 +165,7 @@ export default function Self() {
 					</div>
 					<div className={styles.experience_right}>
 						<h2 className={styles.h2}>What I Bring</h2>
-						<p className={styles.p}>User Expeirence</p>
+						<p className={styles.p}>User Experience</p>
 						<p className={styles.p}>Design Research</p>
 						<p className={styles.p}>User Interface</p>
 						<p className={styles.p}>Visual Design</p>
