@@ -39,12 +39,10 @@ export default function ProjectCard({ project }) {
 				</Link>
 			</div>
 			<div className={styles.card_img}>
-				<Image
+				<img
 					className={styles.img}
 					src={`/assets/img/${project.img}`}
 					alt={project.name}
-					width={745}
-					height={400}
 					quality={100}
 					priority
 				/>

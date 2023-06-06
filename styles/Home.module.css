@@ -33,12 +33,14 @@
 	display: flex;
 	margin-top: 4rem;
 	justify-content: space-between;
+	gap: 1rem;
 }
 .status {
 	display: flex;
 	flex-direction: column;
 	width: 30%;
 	font-size: 18px;
+
 }
 .status_title {
 	font-family: var(--SECONDARYFONT);
@@ -53,7 +55,6 @@
 	height: 90px;
 	border: 1px solid var(--BLACK);
 	margin-left: 0;
-	margin-right: 2rem;
 }
 .hero_image {
 	width: 45%;

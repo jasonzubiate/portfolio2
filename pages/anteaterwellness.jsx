@@ -354,7 +354,7 @@ export default function AnteaterWellness({ project }) {
         <div className="project-section">
           <h2 className="project-h2">Prototyping</h2>
           <label className="project-label-large">
-            Crafting The Full Experience
+            Crafting the Full Experience
           </label>
           <div className="project-subsection">
             <h3 className="project-h3">Stylistic Decisions</h3>

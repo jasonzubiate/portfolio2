@@ -81,7 +81,7 @@ export default function Home( objectData ) {
               return (
                 <div key={project.id}>
                   <hr className={styles.hr} />
-                  <ProjectCard project={project} />
+                  <ProjectCard project={project} img={project.img}/>
                 </div>
               );
             })}

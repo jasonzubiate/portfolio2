@@ -127,7 +127,7 @@ export default function CoughDiarization({ project }) {
 								</div>
 								<div className="project-subsection">
 									<h3 className="project-h3">
-										Connect to GCP Cough Diarization Bucket
+										Connecting to GCP Cough Diarization Bucket
 									</h3>
 									<p className="project-p">
 										We needed to establish a connection to the GCP
