@@ -270,7 +270,7 @@
     flex-direction: column;
   }
   .display-container {
-    flex-direction: column;
+    flex-direction: column-reverse;
     gap: 3rem;
     margin-bottom: 2rem;
   }
