@@ -14,6 +14,14 @@
 .hero_image {
 	display: flex;
 }
+.hide {
+	opacity: 0;
+	clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
+	transform: translateY(100px);
+}
+.title {
+	margin-bottom: 1rem;
+}
 .h1 {
 	font-size: 6rem;
 	font-weight: 800;
@@ -55,15 +63,18 @@
 	height: 90px;
 	border: 1px solid var(--BLACK);
 	margin-left: 0;
+	margin-right: 2rem;
 }
 .hero_image {
 	width: 45%;
 	border-right: 5px solid var(--BLACK);
+	overflow: hidden;
 }
 .img {
 	object-fit: cover;
 	width: 100%;
 	height: 100%;
+	scale: .98;
 }
 .section {
 	border-left: 5px solid var(--BLACK);
@@ -111,9 +122,14 @@
 	.hero_content {
 		padding: 2rem 1rem;
 	}
+	.hide {
+		transform: translateY(50px);
+	}
 	.h1 {
-		font-size: 3.5rem;
-		letter-spacing: -0.2rem;
+		font-size: 3rem;
+		letter-spacing: 0;
+		transform: translateY(50px);
+		margin-bottom: 0;
 	}
 	.catchline {
 		font-size: 18px;
