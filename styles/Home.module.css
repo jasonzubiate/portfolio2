@@ -14,12 +14,19 @@
 .hero_image {
 	display: flex;
 }
+.hide {
+	opacity: 0;
+	clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
+	transform: translateY(100px);
+}
+.title {
+	margin-bottom: 1rem;
+}
 .h1 {
 	font-size: 6rem;
 	font-weight: 800;
 	text-transform: uppercase;
-	line-height: 90%;
-	margin-bottom: 1rem;
+	margin: 0;
 	line-height: 90%;
 	letter-spacing: -0.005em;
 }
@@ -38,7 +45,7 @@
 	display: flex;
 	flex-direction: column;
 	width: 30%;
-	font-size: 18px;
+	font-size: 18px;	
 }
 .status_title {
 	font-family: var(--SECONDARYFONT);
@@ -58,6 +65,7 @@
 .hero_image {
 	width: 45%;
 	border-right: 5px solid var(--BLACK);
+	overflow: hidden;
 }
 .img {
 	object-fit: cover;
@@ -95,7 +103,7 @@
 		border: none;
 		border-bottom: 5px solid var(--BLACK);
 	}
-  .hr {
+	.hr {
 		display: none;
 	}
 }
@@ -110,9 +118,13 @@
 	.hero_content {
 		padding: 2rem 1rem;
 	}
+	.hide {
+		transform: translateY(50px);
+	}
 	.h1 {
-		font-size: 3.5rem;
-		letter-spacing: -0.2rem;
+		font-size: 3rem;
+		letter-spacing: 0;
+		transform: translateY(50px);
 	}
 	.catchline {
 		font-size: 18px;
