@@ -38,7 +38,7 @@ export default function Home(objectData) {
 
 	useEffect(() => {
 		let tl = gsap.timeline({
-			defaults: { ease: "power2", duration: 3 },
+			defaults: { ease: "power2", duration: 2, delay: .5 },
 		});
 		tl.to(imgRef.current, {
 			scale: 1.05,
@@ -46,32 +46,26 @@ export default function Home(objectData) {
 			.to(
 				h1Ref1.current,
 				{
-					// opacity: 1,
-					duration: 2,
+					duration: 1.5,
 					y: 0,
-					// clipPath: "polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)",
 				},
-				"-=2.8"
+				"-=2"
 			)
 			.to(
 				h1Ref2.current,
 				{
-					// opacity: 1,
-					duration: 2,
+					duration: 1.5,
 					y: 0,
-					// clipPath: "polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)",
 				},
-				"-=2.8"
+				"-=2"
 			)
 			.to(
 				[tagRef1.current, tagRef2.current],
 				{
-					// opacity: 1,
-					duration: 2,
+					duration: 1.2,
 					y: 0,
-					// clipPath: "polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)",
 				},
-				"-=2.6"
+				"-=1.8"
 			)
 			.to(
 				[
@@ -84,12 +78,12 @@ export default function Home(objectData) {
 				],
 				{
 					stagger: 0.1,
-					duration: 1.3,
+					duration: 1.2,
 					// opacity: 1,
 					// clipPath: "polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)",
 					y: 0,
 				},
-				"-=2.2"
+				"-=1.7"
 			);
 	}, []);
 
