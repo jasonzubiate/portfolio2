@@ -51,7 +51,7 @@ export default function Home(objectData) {
 					y: 0,
 					// clipPath: "polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)",
 				},
-				"-=3"
+				"-=2.8"
 			)
 			.to(
 				h1Ref2.current,
@@ -61,7 +61,7 @@ export default function Home(objectData) {
 					y: 0,
 					// clipPath: "polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)",
 				},
-				"-=3"
+				"-=2.8"
 			)
 			.to(
 				[tagRef1.current, tagRef2.current],
