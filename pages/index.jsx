@@ -79,11 +79,9 @@ export default function Home(objectData) {
 				{
 					stagger: 0.1,
 					duration: 1.2,
-					// opacity: 1,
-					// clipPath: "polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)",
 					y: 0,
 				},
-				"-=1.7"
+				"-=1.5"
 			);
 	}, []);
 
