@@ -27,16 +27,18 @@ export default function Home(objectData) {
 	const h1Ref1 = useRef();
 	const h1Ref2 = useRef();
 	const imgRef = useRef();
-	const tagRef = useRef();
-	const lineRef1 = useRef();
-	const lineRef2 = useRef();
+	const tagRef1 = useRef();
+	const tagRef2 = useRef();
+	const tRef1 = useRef();
+	const tRef2 = useRef();
+	const tRef3 = useRef();
 	const sRef1 = useRef();
 	const sRef2 = useRef();
 	const sRef3 = useRef();
 
 	useEffect(() => {
 		let tl = gsap.timeline({
-			defaults: { ease: "power1.out", duration: 3 },
+			defaults: { ease: "power2", duration: 3 },
 		});
 		tl.to(imgRef.current, {
 			scale: 1.05,
@@ -44,54 +46,50 @@ export default function Home(objectData) {
 			.to(
 				h1Ref1.current,
 				{
-					opacity: 1,
-					duration: 1.5,
+					// opacity: 1,
+					duration: 2,
 					y: 0,
-					clipPath: "polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)",
+					// clipPath: "polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)",
 				},
 				"-=3"
 			)
 			.to(
 				h1Ref2.current,
 				{
-					opacity: 1,
-					duration: 1.2,
+					// opacity: 1,
+					duration: 2,
 					y: 0,
-					clipPath: "polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)",
+					// clipPath: "polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)",
 				},
 				"-=3"
 			)
 			.to(
-				tagRef.current,
+				[tagRef1.current, tagRef2.current],
 				{
-					opacity: 1,
-					duration: 1.2,
+					// opacity: 1,
+					duration: 2,
 					y: 0,
-					clipPath: "polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)",
+					// clipPath: "polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)",
 				},
 				"-=2.6"
 			)
 			.to(
-				[lineRef1.current, lineRef2.current],
+				[
+					tRef1.current,
+					sRef1.current,
+					tRef2.current,
+					sRef2.current,
+					tRef3.current,
+					sRef3.current,
+				],
 				{
-					stagger: 0.2,
+					stagger: 0.1,
 					duration: 1.3,
-					opacity: 1,
-					clipPath: "polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)",
+					// opacity: 1,
+					// clipPath: "polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)",
 					y: 0,
 				},
-				"-=2.4"
-			)
-			.to(
-				[sRef1.current, sRef2.current, sRef3.current],
-				{
-					stagger: 0.2,
-					duration: 1.5,
-					opacity: 1,
-					clipPath: "polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)",
-					y: 0,
-				},
-				"-=2.5"
+				"-=2.2"
 			);
 	}, []);
 
@@ -107,47 +105,73 @@ export default function Home(objectData) {
 				<div className={styles.hero}>
 					<div className={styles.hero_content}>
 						<div className={styles.title}>
-							<h1 className={`${styles.h1} ${styles.hide}`} ref={h1Ref1}>
-								Jason
-							</h1>
-							<h1 className={`${styles.h1} ${styles.hide}`} ref={h1Ref2}>
-								Zubiate
-							</h1>
+							<div className={styles.mask}>
+								<h1 className={styles.h1} ref={h1Ref1}>
+									Jason
+								</h1>
+							</div>
+							<div className={styles.mask}>
+								<h1 className={styles.h1} ref={h1Ref2}>
+									Zubiate
+								</h1>
+							</div>
 						</div>
-						<h2 className={`${styles.catchline} ${styles.hide}`} ref={tagRef}>
-							0 to 1 designer - of software, interfaces, and experiences
-						</h2>
+						<div className={styles.mask}>
+							<h2 className={styles.catchline} ref={tagRef1}>
+								0 to 1 designer - of software, interfaces, and
+							</h2>
+						</div>
+						<div className={styles.mask}>
+							<h2 className={styles.catchline} ref={tagRef2}>
+								experiences
+							</h2>
+						</div>
 						<div className={styles.statuses}>
-							<div className={`${styles.status} ${styles.hide}`} ref={sRef1}>
-								<label className={styles.status_title}>Currently</label>
-								<label className={styles.status_body}>
-									Preparing for gradute school in fall 2023
-								</label>
+							<div className={styles.status}>
+								<div className={styles.mask}>
+									<label className={styles.status_title} ref={tRef1}>
+										Currently
+									</label>
+								</div>
+								<div className={styles.mask}>
+									<label className={styles.status_body} ref={sRef1}>
+										Preparing for gradute school in fall 2023
+									</label>
+								</div>
 							</div>
-							<div
-								className={`${styles.vl} ${styles.hide}`}
-								ref={lineRef1}
-							></div>
-							<div className={`${styles.status} ${styles.hide}`} ref={sRef2}>
-								<label className={styles.status_title}>Thinking About</label>
-								<label className={styles.status_body}>
-									Latest design trends, new techniques in dance music production
-								</label>
+							<div className={styles.vl}></div>
+
+							<div className={styles.status}>
+								<div className={styles.mask}>
+									{" "}
+									<label className={styles.status_title} ref={tRef2}>
+										Thinking About
+									</label>
+								</div>
+								<div className={styles.mask}>
+									<label className={styles.status_body} ref={sRef2}>
+										Latest design trends, new techniques in dance music
+										production
+									</label>
+								</div>
 							</div>
-							<div
-								className={`${styles.vl} ${styles.hide}`}
-								ref={lineRef2}
-							></div>
-							<div className={`${styles.status} ${styles.hide}`} ref={sRef3}>
-								<label className={styles.status_title}>Previously</label>
-								<label className={styles.status_body}>
-									UX Lead @{" "}
-									<span className={styles.bold}>
-										<a className="link" href="https://www.nutripair.co/">
-											Nutripair
-										</a>
-									</span>
-								</label>
+							<div className={styles.vl}></div>
+							<div className={styles.status}>
+								<div className={styles.mask}>
+									<label className={styles.status_title} ref={tRef3}>
+										Previously
+									</label>
+								</div>
+								<div className={styles.mask}>
+									<label className={styles.status_body} ref={sRef3}>
+										UX Lead @{" "}
+										<span className={styles.bold}>
+											<a className="link" href="https://www.nutripair.co/">
+												Nutripair
+											</a>
+										</span>
+									</label>
+								</div>
 							</div>
 						</div>
 					</div>

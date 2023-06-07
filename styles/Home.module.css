@@ -14,10 +14,15 @@
 .hero_image {
 	display: flex;
 }
-.hide {
-	opacity: 0;
-	clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
-	transform: translateY(100px);
+.mask {
+	/* opacity: 0; */
+	/* clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%); */
+	overflow: hidden;
+}
+@keyframes appear {
+	to {
+		opacity: 1;
+	}
 }
 .title {
 	margin-bottom: 1rem;
@@ -27,14 +32,17 @@
 	font-weight: 800;
 	text-transform: uppercase;
 	line-height: 90%;
-	/* margin-bottom: 1rem; */
 	letter-spacing: -0.005em;
+	transform: translateY(-100%);
+	/* opacity: 0; */
 }
 .catchline {
 	font-family: var(--SECONDARYFONT);
 	font-size: 2.25rem;
 	font-style: italic;
 	font-weight: 600;
+	transform: translateY(-100%);
+	/* opacity: 0; */
 }
 .statuses {
 	display: flex;
@@ -47,12 +55,18 @@
 	flex-direction: column;
 	width: 30%;
 	font-size: 18px;
+	gap: 0.5rem;
 }
 .status_title {
 	font-family: var(--SECONDARYFONT);
-	margin-bottom: 0.5rem;
 	font-style: italic;
 	font-weight: 700;
+	transform: translateY(-100%);
+	display: block;
+}
+.status_body {
+	display: block;
+	transform: translateY(-100%);
 }
 .bold {
 	font-weight: 600;
@@ -62,6 +76,8 @@
 	border: 1px solid var(--BLACK);
 	margin-left: 0;
 	margin-right: 2rem;
+	opacity: 0;
+	animation: appear 2s  forwards 800ms;
 }
 .hero_image {
 	width: 45%;
@@ -120,13 +136,9 @@
 	.hero_content {
 		padding: 2rem 1rem;
 	}
-	.hide {
-		transform: translateY(50px);
-	}
 	.h1 {
 		font-size: 3rem;
 		letter-spacing: 0;
-		transform: translateY(50px);
 		margin-bottom: 0;
 	}
 	.catchline {
