@@ -16,7 +16,11 @@ export default function Navbar({ toggle, setToggle }) {
 	return (
 		<nav className={styles.navbar}>
 			<div className={styles.navbar_icon}>
-				<Link className={styles.logo} href={"/"}>
+				<Link
+					className={styles.logo}
+					href={"/"}
+					onClick={() => handleNavClick("work")}
+				>
 					Jason Zubiate
 				</Link>
 			</div>
