@@ -1,20 +1,32 @@
 import Link from "next/link";
 import styles from "@/styles/Navbar.module.css";
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import NavItem from "./NavItem";
 import menu from "@/public/assets/icons/menu.png";
 import close from "@/public/assets/icons/close.png";
 import Image from "next/image";
+import { gsap } from "gsap";
 
 export default function Navbar({ toggle, setToggle }) {
 	const [currentPage, setCurrentPage] = useState("work");
+	const navRef = useRef();
 
 	const handleNavClick = (page) => {
 		setCurrentPage(page);
 	};
 
+	useEffect(() => {
+		let tl = gsap.timeline({
+			defaults: { ease: "power2", duration: 1.2, delay: 0.1 },
+		});
+		tl.to(navRef.current, {
+			height: 100,
+			opacity: 1,
+		});
+	});
+
 	return (
-		<nav className={styles.navbar}>
+		<nav className={styles.navbar} ref={navRef}>
 			<div className={styles.navbar_icon}>
 				<Link
 					className={styles.logo}

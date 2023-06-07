@@ -23,7 +23,6 @@ export const getStaticProps = async () => {
 
 export default function Home(objectData) {
 	const { work, freelance } = objectData;
-
 	const h1Ref1 = useRef();
 	const h1Ref2 = useRef();
 	const imgRef = useRef();
