@@ -38,7 +38,7 @@ export default function Home(objectData) {
 
 	useEffect(() => {
 		let tl = gsap.timeline({
-			defaults: { ease: "power2", duration: 2, delay: .5 },
+			defaults: { ease: "power2", duration: 2, delay: .1 },
 		});
 		tl.to(imgRef.current, {
 			scale: 1.05,
