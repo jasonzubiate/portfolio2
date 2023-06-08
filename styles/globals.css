@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,600;1,400;1,600;1,700&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 :root {
   /* FONTS */
   --PRIMARYFONT: "Sora", sans-serif;
@@ -12,14 +12,19 @@
   --BRIGHTGREEN: #c8f377;
   --LIGHTBLUE: #3487fd;
   --LIGHTGREY: #f1f1f0;
+
+  /* TRANSITION */
+	--TRANS: 200ms cubic-bezier(0.13, 0.53, 0.38, 0.97);
 }
 
 /* RESET */
-* {
+*, *::before, *::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+
 
 /* ANIMATIONS */
 .fadein {
