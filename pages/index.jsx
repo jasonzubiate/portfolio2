@@ -127,7 +127,7 @@ export default function Home(objectData) {
                 </div>
                 <div className={styles.mask}>
                   <label className={styles.status_body} ref={sRef1}>
-                    Preparing for gradute school in fall 2023
+                    Graduate of the University Of California, Irvine
                   </label>
                 </div>
               </div>
